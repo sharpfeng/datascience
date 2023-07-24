@@ -1,0 +1,462 @@
+﻿number,Category,column_name,attribute_name,Description,Datatype
+1,Identifier,BLU_ID,Blu ID,Individual Consumer Blu ID,id
+2,Identifier,TransUnionHouseholdID,Household ID,Household ID,id
+3,Demographic - Age / Gender,Gender,Gender,Gender,categorical
+4,Demographic - Income,Income,Income,Estimated Household Income,numeric
+5,Demographic - Age / Gender,Age,Age,Age,numeric
+6,Demographic - Marital Status,Likely_Recently_Divorced,Likely Recently Divorced,Indicates the likeliness of a divorce within the last twelve months,dummy
+7,Demographic - Family Composition,Likely_Recent_Empty_Nester,Likely Recent Empty Nester,Indicates the likeliness of an empty nester where an adult child (18+) has left the home within the last twelve months,dummy
+8,Interest / Hobby - Health / Fitness,aerobics,Aerobics,Interest in aerobics,dummy
+9,Interest / Hobby - Crafts,art_craft,Art and Crafts,Interest in arts and crafts,dummy
+10,Interest / Hobby - Auto & Vehicles,auto_motorcycle_racing,Auto / Motorcycle Racing,Interest in auto / motorcycle racing,dummy
+11,Retail Purchase - Auto & Vehicles,auto_parts_repair_accesories_w,Auto Parts Purchase,"Automotive, auto parts and accessories purchase within the last 24 months",dummy
+12,Interest / Hobby - Auto & Vehicles,auto_work,Auto Work,Interest in auto work,dummy
+13,Interest / Hobby - Reading,avid_readers,Avid Reader,"Avid readers - enjoy reading books, magazines, newspapers",dummy
+14,Consumer Finance - Credit Card,bank_card,Bank Card,Owns a bank card,dummy
+15,Interest / Hobby - Sports / Outdoor,baseball,Baseball,Likes baseball,dummy
+16,Interest / Hobby - Sports / Outdoor,basketball,Basketball,Likes basketball,dummy
+17,Interest / Hobby - Sports / Outdoor,boating_or_sailing,Boating / Sailing,Likes boating / sailing,dummy
+18,Retail Purchase - Reading,bookbuyer,Book Buyer,Book buyer,dummy
+19,Interest / Hobby - Outdoor,camping_or_hiking,Camping / Hiking,Likes camping / hiking,dummy
+20,Interest / Hobby - Business,career_minded,Career Minded,Career minded interest,dummy
+21,Interest / Hobby - Auto & Vehicles,cars,Cars,Car interest,dummy
+22,Interest / Hobby - Gambling,casino_gambling,Casino / Gambling,Interest in casino gambling,dummy
+23,Consumer Finance - Credit Card,cc_premium_american_express,Premium Card - American Express,Owns premium American Express credit card (gold or black),dummy
+24,Consumer Finance - Credit Card,cc_premium_discover,Premium Card - Discover,Owns premium Discover credit card,dummy
+25,Consumer Finance - Credit Card,cc_premium_store_or_retail,Premium Card - Retail or Store,Owns premium retail or store credit card,dummy
+26,Consumer Finance - Credit Card,cc_premium_visa_or_mastercard,Premium Card - MasterCard or Visa,Owns premium MasterCard or Visa credit card,dummy
+27,Consumer Finance - Credit Card,cc_regular_american_express,Regular Card - American Express,Owns regular American Express credit card,dummy
+28,Consumer Finance - Credit Card,cc_regular_discover,Regular Card - Discover,Owns regular Discover credit card,dummy
+29,Consumer Finance - Credit Card,cc_regular_store_or_retail,Regular Card - Retail or Store,Owns standard retail or store credit card,dummy
+30,Interest / Hobby - Children,children_interests,Children Interest,Interest in children's activities,dummy
+31,Household Composition - Children in Household,childrenage0_3gender_female,Presence of Children Age Gender,Children ages 0 to 3 gender Female,dummy
+32,Household Composition - Children in Household,childrenage0_3gender_male,Presence of Children Age Gender,Children ages 0 to 3 gender Male,dummy
+33,Household Composition - Children in Household,childrenage10_12gender_female,Presence of Children Age Gender,Children ages 10 to 12  gender Female,dummy
+34,Household Composition - Children in Household,childrenage10_12gender_male,Presence of Children Age Gender,Children ages 10 to 12 gender Male,dummy
+35,Household Composition - Children in Household,childrenage13_18gender_female,Presence of Children Age Gender,Children ages 13 to 18 gender Female,dummy
+36,Household Composition - Children in Household,childrenage13_18gender_male,Presence of Children Age Gender,Children ages 13 to 18 gender Male,dummy
+37,Household Composition - Children in Household,childrenage4_6gender_female,Presence of Children Age Gender,Children ages 4 to 6 gender Female,dummy
+38,Household Composition - Children in Household,childrenage4_6gender_male,Presence of Children Age Gender,Children ages 4 to 6 gender Male,dummy
+39,Household Composition - Children in Household,childrenage7_9gender_female,Presence of Children Age Gender,Children ages 7 to 9 gender Female,dummy
+40,Household Composition - Children in Household,childrenage7_9gender_male,Presence of Children Age Gender,Children ages 7 to 9 gender Male,dummy
+41,Interest / Hobby - Collector,collect_specialfoodsbuyer,Collector Special Foods,Collects special foods buyer,dummy
+42,Interest / Hobby - Collector,collector_antiques,Collector Antiques,Collects antiques,dummy
+43,Interest / Hobby - Collector,collector_coins,Collector Coins ,Collects coins,dummy
+44,Interest / Hobby - Collector,collector_dolls,Collector Dolls,Collects dolls,dummy
+45,Interest / Hobby - Collector,collector_figurines,Collector Figurines,Collects figurines,dummy
+46,Interest / Hobby - Collector,collector_fine_arts,Collector Fine Art,Collects fine art,dummy
+47,Interest / Hobby - Collector,collector_music,Collector Music,Interest in collecting music,dummy
+48,Interest / Hobby - Collector,collector_plates,Collector Plates,Collects plates,dummy
+49,Interest / Hobby - Collector,collector_sports_memorabilia,Collector Sports Memorabilia,Collects sports memorabilia,dummy
+50,Interest / Hobby - Collector,collector_stamps,Collector Stamps,Collects stamps,dummy
+51,Interest / Hobby - Collector,collectors,Collectors,Collectors,dummy
+52,Interest / Hobby - Electronics,consumer_electronics,Electronics,Interest in consumer electronics,dummy
+53,Interest / Hobby - Contributor / Donor,contribute_animal,Contributor Animal,Animal contributor,dummy
+54,Interest / Hobby - Contributor / Donor,contribute_childrens,Contributor Children,Children's' contributor,dummy
+55,Interest / Hobby - Contributor / Donor,contribute_environm,Contributor Environmental,Environmental contributor,dummy
+56,Interest / Hobby - Contributor / Donor,contribute_health,Contributor Health,Health contributor,dummy
+57,Interest / Hobby - Contributor / Donor,contribute_political,Contributor Political,Political contributor,dummy
+58,Interest / Hobby - Contributor / Donor,contribute_political_conservat,Contributor Political Conservative,Donates to conservative political party,dummy
+59,Interest / Hobby - Contributor / Donor,contribute_political_liberal,Contributor Political Liberal,Donates to liberal party,dummy
+60,Interest / Hobby - Contributor / Donor,contribute_religious,Contributor Religion,Religious contributor,dummy
+61,Interest / Hobby - Contributor / Donor,contribute_veterans,Contributor Veteran,Veterans contributor,dummy
+62,Interest / Hobby - Contributor / Donor,contributor_index,Contributor Index,Indicates propensity to be a charitable donor,numeric
+63,Interest / Hobby - Contributor / Donor,contributors,Contributors,General contributor,dummy
+64,Retail Purchase - Contributor / Donor,crafts_hobbmerchbuyer,Craft Hobby Merchandise Buyer,Purchased craft or hobby merchandise via mail,dummy
+65,Consumer Finance - Credit Card,credit_card,Credit Card,Owns a credit card,dummy
+66,Consumer Finance - Credit Card,credit_cards_regular_visa_or_m,Regular Card - MasterCard or Visa,Owns standard MasterCard or Visa credit card,dummy
+67,Consumer Finance - Credit Card,creditcard_newissue,New Credit Card,New credit card issued,dummy
+68,Interest / Hobby - Arts / Photography,cultural_artistic,Cultural Arts,Interest in cultural / artistic,dummy
+69,Interest / Hobby - Political,current_affairs_politics,Current Affairs,Interest in current affairs and politics,dummy
+70,Interest / Hobby - Health / Fitness,diet_weight_loss,Diet Weight Loss,Interest in dieting / weight loss,dummy
+71,Interest / Hobby - DIY,doit_yourselfer,Do It Yourself,"Made up of two or more:  motorcycling, technology, gadgets, recreational vehicle, woodworking, sewing, etc.",dummy
+72,Interest / Hobby - Contributor / Donor,donor_arts_or_cultural,Donor Arts,Donates to art / cultural causes,dummy
+73,Interest / Hobby - Entertainment,entertainment_enth,Entertainment,Interest in entertainment,dummy
+74,Interest / Hobby - Family,family,Family,Interest in family,dummy
+75,Household Composition - Household Members,family_position,Family Position,"Indicates the role of a family member such as husband, wife, grandmother, etc.",dummy
+76,Retail Purchase - General,femalemerchbuyer,Female Merchandise Buyer,Female merchandise buyer,dummy
+77,Interest / Hobby - Outdoor,fishing,Fishing,Likes fishing,dummy
+78,Interest / Hobby - Health / Fitness,fitness,Fitness,Likes fitness,dummy
+79,Interest / Hobby - Food / Wine / Luxury,food,Food,Food and wine interest,dummy
+80,Interest / Hobby - Sports / Outdoor,football,Football,Likes football,dummy
+81,Interest / Hobby - Outdoor,gardening,Gardening,Interest in gardening,dummy
+82,Consumer Finance - Investment / Wealth,gdiscindex,Discretionary Spend,Discretionary spend index,numeric
+83,Household Composition - Household Members,gen_in_household,Generations,Indicates the number of family generations in a household,dummy
+84,Household Composition - Grandchildren,general_info_grandchildren_le_,Grandchildren,Grandchildren less than or equal to 12 years old,dummy
+85,Interest / Hobby - Music,genre_musictype_christian_or_g,Christian Music,Likes Christian / gospel music genre,dummy
+86,Interest / Hobby - Music,genre_musictype_classical,Classical Music,Likes classical music genre,dummy
+87,Interest / Hobby - Music,genre_musictype_country,Country Music,Likes country music genre,dummy
+88,Interest / Hobby - Music,genre_musictype_jazz,Jazz Music,Likes jazz music genre,dummy
+89,Interest / Hobby - Music,genre_musictype_rhythm_and_blu,Rhythm and Blues Music,Likes R&B music genre,dummy
+90,Interest / Hobby - Music,genre_musictype_rock_n_roll,Rock and Roll Music,Likes rock and roll music genre,dummy
+91,Interest / Hobby - Music,genre_musictype_soft_rock_or_e,Easy Listening Music,Likes soft rock / easy listening music genre,dummy
+92,Interest / Hobby - Sports / Outdoor,golf,Golf,Likes golf,dummy
+93,Interest / Hobby - Sports / Outdoor,great_outdoors,Great Outdoors,"Made up of three or more of:  hunting / shooting, sailing / boating, fishing, motorcycling, camping / hiking, recreational vehicles, etc.",dummy
+94,Retail Purchase - Health / Beauty,health_beauty,Health Beauty Purchase,Health and beauty product purchase within the last 24 months,dummy
+95,Interest / Hobby - Health / Fitness,health_living,Healthy Living,"Made up of two of more:  bicycling, running / jogging, self-improvement, health / natural foods, etc.",dummy
+96,Interest / Hobby - Electronics,hightechleader,High Tech Leader,Interest in high tech,dummy
+97,Interest / Hobby - Outdoor,hobby_bird_watching,Bird Watching,Interest in bird watching,dummy
+98,Interest / Hobby - Gaming,hobby_board_games,Board Games,Interest in board games,dummy
+99,Interest / Hobby - Food / Wine / Luxury,hobby_cigar_smoking,Cigar Smoking,Interest in cigars,dummy
+100,Interest / Hobby - Gaming,hobby_computer_games,Computer Games,Interest in computer games,dummy
+101,Interest / Hobby - Food / Wine / Luxury,hobby_cooking,Cooking,Interest in cooking,dummy
+102,Interest / Hobby - Food / Wine / Luxury,hobby_cooking_gourmet,Gourmet Cooking,Interest in gourmet cooking,dummy
+103,Interest / Hobby - Crafts,hobby_crafts,Crafts,Interest in crafts,dummy
+104,Interest / Hobby - Education,hobby_home_study_courses,Home Study,Interest in home study courses,dummy
+105,Interest / Hobby - Crafts,hobby_knitting_or_needlework,Knitting,Interest in knitting or needlework,dummy
+106,Interest / Hobby - Arts / Photography,hobby_photography,Photography,Interest in photography or videography,dummy
+107,Interest / Hobby - Crafts,hobby_quilting,Quilting,Interest in quilting,dummy
+108,Interest / Hobby - Education,hobby_self_improvement_courses,Self Improvement,Interest in self improvement courses,dummy
+109,Interest / Hobby - Crafts,hobby_sewing,Sewing,Interest in sewing,dummy
+110,Interest / Hobby - Gaming,hobby_video_games,Video Games,Interest in video games,dummy
+111,Interest / Hobby - Food / Wine / Luxury,hobby_wine_appreciation,Wine Appreciation,Interest in wine,dummy
+112,Interest / Hobby - DIY,hobby_woodworking,Woodworking,Interest in woodworking,dummy
+113,Interest / Hobby - General,hobbyists,Hobbyists,Hobby interest,dummy
+114,Interest / Hobby - Sports / Outdoor,hockey,Hockey,Likes hockey,dummy
+115,Interest / Hobby - DIY,home_decor,Home Decor,Home decorators,dummy
+116,Retail Purchase - Home,home_improvement,Home Improvement,Home improvement purchase,dummy
+117,Interest / Hobby - Sports / Outdoor,hunting,Hunting,Likes hunting,dummy
+118,Household Composition - Household Members,inferred_household_rank,Household Rank,"Indicates the inferred household rank, from 1 - 9, of an individual in the household",numeric
+119,Retail Purchase - Ecommerce,internet_buyer,Internet Buyer,Buys online,dummy
+120,Consumer Finance - Investment / Wealth,investment_type,Investment Type,Type of investment,dummy
+121,Consumer Finance - Investment / Wealth,investments,Investments,Owns investments,dummy
+122,Consumer Finance - Investment / Wealth,investments_own_mutual_funds_c,Mutual Funds,Owns mutual funds,dummy
+123,Consumer Finance - Investment / Wealth,investments_own_stocks_or_bond,Stocks,Owns stocks and bonds,dummy
+124,Interest / Hobby - Food / Wine / Luxury,luxury_life,Luxury Life,"Made up of three or more:  gourmet cooking, health / natural foods, wines, fashion clothing, home decor, etc.",dummy
+125,Retail Purchase - Reading,magazine,Magazine Buyer,Magazines purchased,dummy
+126,Retail Purchase - Catalog / Direct Mail,mail_buyer,Direct Mail Buyer,Mail order buyer,dummy
+127,Retail Purchase - General,malemerchbuyer,Male Merchandise Buyer,Male merchandise buyer,dummy
+128,Demographic - Marital Status,marital_status,Marital Status,Marital status,dummy
+129,Retail Purchase - Big Box Retail,membership_warehouse,Warehouse Membership,Owns a warehouse membership,dummy
+130,Retail Purchase - Reading,mo_books_or_mag,Book Magazine Purchase,Purchased books or magazines via mail,dummy
+131,Retail Purchase - Children,mo_children_s_products,Children's Product Purchase,Purchase children's products via mail,dummy
+132,Retail Purchase - Fashion / Jewelry,mo_clothing,Clothing Purchase,Purchased clothing via mail,dummy
+133,Retail Purchase - Health / Beauty,mo_cosmetics,Cosmetics Purchase,Purchased cosmetics via mail,dummy
+134,Retail Purchase - Entertainment,mo_dvd,DVD Purchase,Purchased DVDs via mail,dummy
+135,Retail Purchase - Gifts,mo_gifts,Gift Purchase,Purchased gifts via mail,dummy
+136,Retail Purchase - Home,mo_home_furnishing,Home Furnishing Purchase,Purchased home furnishings via mail,dummy
+137,Retail Purchase - Fashion / Jewelry,mo_jewelry,Jewelry Purchase,Purchased jewelry via mail,dummy
+138,Retail Purchase - Fashion / Jewelry,mo_plus_size_clothing,Plus Size Clothing Purchase,Purchased plus size clothing via mail,dummy
+139,Automotive - Motorcycle,motor_cycle,Motorcycle,Motorcycle ownership code,dummy
+140,Interest / Hobby - Entertainment,movie,Movies,Interest in movies,dummy
+141,Interest / Hobby - Music,music,Music,Interest in music,dummy
+142,Interest / Hobby - Music,music_player,Music Player,Interest in music players,dummy
+143,Retail Purchase - Music,musical_instruments,Musical Instrument Purchase,Musical instrument purchase within the last 24 months,dummy
+144,Interest / Hobby - Entertainment,nascar,NASCAR,Likes NASCAR racing,dummy
+145,Consumer Finance - Investment / Wealth,net_worth,Net Worth,Predicts the range in which household net worth is likely to fall,dummy
+146,Retail Purchase - Credit Card / Financing,num_credit_lines,Purchase Using Credit,Indicates credit purchases made in multiple retail stores,numeric
+147,Household Composition - Household Members,num_in_household,Number of People,Number of people in the household,numeric
+148,Household Composition - Household Members,num_of_adult,Number of Adults,Number of adults in the household,numeric
+149,Interest / Hobby - Education,online_education,Online Education,Indicates interest in online education / distance learning,dummy
+150,Household Composition - Pet Owner,pets,Pet Owner,Owns at least one pet,dummy
+151,Household Composition - Pet Owner,pets_own_at_least_one_cat,Cat Owner,Owns at least one cat,dummy
+152,Household Composition - Pet Owner,pets_own_at_least_one_dog,Dog Owner,Owns at least one dog,dummy
+153,Household Composition - Political,political_affiliation,Political,Political affiliation,categorical
+154,Household Composition - Household Members,presence_of_elderly_parent,Elderly Parent,Presence of elderly relative,dummy
+155,Consumer Finance - Credit Card,presence_premium_card,Premium Card,Indicates presence of one or more types of premium credit cards in a household,dummy
+156,Consumer Finance - Credit Card,presenceofgoldorplatinumcredit,Gold or Platinum Card,Presence of gold or platinum credit card,dummy
+157,Interest / Hobby - Reading,reading_astrology,Astrology Reading,Reads astrology books,dummy
+158,Interest / Hobby - Reading,reading_best_selling_fiction,Fiction Reading,Reads best selling fiction,dummy
+159,Interest / Hobby - Reading,reading_bible_or_devotional,Bible Reading,Reads bible / devotional books,dummy
+160,Interest / Hobby - Reading,reading_books_on_tape,Books on Tape,Listens to books on tape / audio books,dummy
+161,Interest / Hobby - Reading,reading_children_s,Children Reading,Reads children's books,dummy
+162,Interest / Hobby - Reading,reading_computer,Computer Reading,Reads computer / technical books / materials,dummy
+163,Interest / Hobby - Reading,reading_cooking_or_culinary,Cookbook Reading,Reads cookbooks,dummy
+164,Interest / Hobby - Reading,reading_country_lifestyle,Country Book Reading,Reads country lifestyle books / materials,dummy
+165,Interest / Hobby - Reading,reading_fashion,Fashion Reading,Reads fashion books / materials,dummy
+166,Interest / Hobby - Reading,reading_history,History Reading,Reads history books / materials,dummy
+167,Interest / Hobby - Reading,reading_interior_decorating,Interior Decorating,Reads interior decorating books / materials,dummy
+168,Interest / Hobby - Reading,reading_medical_or_health,Medical Reading,Reads medical / health books / materials,dummy
+169,Interest / Hobby - Reading,reading_military,Military Reading,Reads military books / materials,dummy
+170,Interest / Hobby - Reading,reading_mystery,Mystery Reading,Reads mysteries,dummy
+171,Interest / Hobby - Reading,reading_natural_health_remedie,Health Remedy Reading,Reads natural heath remedies,dummy
+172,Interest / Hobby - Reading,reading_news_finance,News and Finance Reading,Read news and finance / financial newsletters,dummy
+173,Interest / Hobby - Reading,reading_people_or_entertainmen,Entertainment Reading,Reads people / entertainment materials,dummy
+174,Interest / Hobby - Reading,reading_romance,Romance Reading,Reads romance books,dummy
+175,Interest / Hobby - Reading,reading_science_fiction,Science Fiction Reading,Reads science fiction,dummy
+176,Interest / Hobby - Reading,reading_science_or_technology,Science Technology Reading,Reads science / technology materials,dummy
+177,Interest / Hobby - Reading,reading_sports,Sports Reading,Reads sports ,dummy
+178,Interest / Hobby - Reading,reading_world_news_or_politics,World News Reading,Reads world news / political materials,dummy
+179,Interest / Hobby - Reading,religious_inspirational,Religious Reading,Reads religious / inspirational materials,dummy
+180,Home Ownership / Property - Home Ownership,residental_properties_owned,Properties Owned,Indicates the estimated number of housing investment properties owned,numeric
+181,Retail Purchase - Catalog / Direct Mail,respondedtocatalog,Catalog Buyer,Responded to catalog,dummy
+182,Consumer Finance - Credit Card,retail_card,Retail Card,Presence of retail credit card,dummy
+183,Interest / Hobby - Health / Fitness,running,Running,Likes running,dummy
+184,Automotive - Auto Owner,rv_own,RV Owner,Recreational vehicle ownership code,dummy
+185,Interest / Hobby - Education,science_space,Science Space,Interest in science / space,dummy
+186,Interest / Hobby - Sports / Outdoor,scuba_diving,SCUBA Diving,Likes SCUBA Diving,dummy
+187,Interest / Hobby - Education,self_improvement,Self Improvement,Interest in self improvement,dummy
+188,Interest / Hobby - Sports / Outdoor,snow_skiing,Snow Skiing,Likes snow skiing,dummy
+189,Business - Firmographic,soho_business,SOHO business,Operates a home based business,dummy
+190,Interest / Hobby - Sports / Outdoor,sporting_life,Sporting Life,Made up of three or more sports,dummy
+191,Interest / Hobby - Sports / Outdoor,sports,Sports,Likes sports,dummy
+192,Interest / Hobby - Gambling,sports_betting,Sports Betting,Interest in wagering on undefined sporting events,dummy
+193,Interest / Hobby - Gambling,sweepstakes_contest,Sweepstakes,Interest in sweepstakes / contests,dummy
+194,Interest / Hobby - Sports / Outdoor,tennis,Tennis,Likes tennis,dummy
+195,Interest / Hobby - Children,toys,Toys,Interest in toys,dummy
+196,Travel - Interest,travel,Travel,Interest in travel,dummy
+197,Travel - Business,travel_business,Business Travel,Business travel,dummy
+198,Travel - Credit Card,travel_card,Travel Cards,Indicates possession of travel / entertainment credit cards,dummy
+199,Travel - Interest,travel_cruises,Cruises,Likes cruise travel,
+200,Travel - Interest,travel_international,International Travel,Interest in international travel,
+201,Travel - Interest,travel_personal,Personal Travel,Interest in personal travel,
+202,Travel - Interest,travel_vacation,Vacation Travel,Interest in vacation travel,
+203,Automotive - Auto Owner,truck_owner,Truck Owner,Truck owner code - owns a truck or pickup,
+204,Interest / Hobby - Entertainment,tv_sports,TV Sports,Interested in watching sports on TV,
+205,Household Composition - Military,veteran_in_household,Veteran,Veteran in household,
+206,Household Composition - Political,voter_indicator,Voter,Known registered voter,
+207,Interest / Hobby - Health / Fitness,walking,Walking,Likes walking,
+208,Consumer Finance - Investment / Wealth,wealthrating,Wealth Rating,Wealth rating,numeric
+209,Business - Employee / Owner,working_woman,Working Woman,Indicates that a working woman is present in the household,
+210,Household Composition - Household Members,young_adult_in_household,Young Adult,Young adult in household,numeric
+211,Geographic - Census,AVG_COMMUTE_DRIVE_TIME,Average Commute Time,Average Minutes Commute Drive Time per Person,numeric
+212,Geographic - Census,AVG_YRS_EDUCATION,Average Education,Average Number of Years of Education for Population Age 25+ ,numeric
+213,Geographic - Census,AVG_FAMILY_SIZE,Average Family Size,Average Number of People in a Family Household,numeric
+214,Geographic - Census,AVG_HH_SIZE,Average Household Size,Average Number of People in a Household,numeric
+215,Geographic - Census,AVG_HH_SIZE_OWNER_OCCUPIED,Average Household Size Owner Occupied,Average Number of People per Household for Owner Occupied Households,numeric
+216,Geographic - Census,AVG_HH_SIZE_RENTER_OCCUPIED,Average Household Size Renter Occupied,Average Number of People per Household for Renter Occupied Households,numeric
+217,Geographic - Census,AVG_NUM_VEHICLES,Average Number of Vehicles,Average Number of Vehicles per Household,numeric
+218,Geographic - Census,MEDIAN_AGE,Median Age,Median Household Age,numeric
+219,Geographic - Census,median_home_value,Median Home Value,Median Home Value,numeric
+220,Geographic - Census,MEDIAN_HOUSING_UNIT_VALUE,Median Housing Unit Value,Median Housing Unit Value,numeric
+221,Geographic - Census,MEDIAN_RENT_ASKED,Median Rent Asked,Median Rent Asked,numeric
+222,Geographic - Census,MEDIAN_ROOMS_IN_BLDG,Median Rooms,Median Number of Rooms in a Building,numeric
+223,Geographic - Census,MEDIAN_YEAR_STRUCTURE_BUILT,Median Year Built,Median Year Structure Built,numeric
+224,Geographic - Census,MEDIAN_YR_HH_MV_IN,Median Year Moved In,Median Year Household Moved into Unit,numeric
+225,Geographic - Census,PCT_ASIAN,Percent Asian,Determines the percent of race within a geographical area defined by the Census Bureau.,numeric
+226,Geographic - Census,PCT_ASIAN_SPEAKING,Percent Asian Speaking,Determines the percent of a language within a geographical area defined by the Census Bureau,numeric
+227,Geographic - Census,PCT_BLACK,Percent Black,Determines the percent of race within a geographical area defined by the Census Bureau,numeric
+228,Geographic - Census,PCT_IN_CONSTRUCTION_MAINT,Percent Construction,Determines the percent of occupation within a geographical area defined by the Census Bureau,numeric
+229,Geographic - Census,PCT_ENGLISH_SPEAKING,Percent English Speaking,Determines the percent of a language within a geographical area defined by the Census Bureau,numeric
+230,Geographic - Census,PCT_FAMILY_HH,Percent Families,Determines the percent of family composition within a geographical area defined by the Census Bureau,numeric
+231,Geographic - Census,PCT_IN_FARM_FISH_FOREST,Percent Farming,Determines the percent of occupation within a geographical area defined by the Census Bureau,numeric
+232,Geographic - Census,PCT_HISPANIC,Percent Hispanic,Determines the percent of race within a geographical area defined by the Census Bureau,numeric
+233,Geographic - Census,PCT_INDO_EURO_SPEAKING,Percent Indo-European Speaking,Determines the percent of a language within a geographical area defined by the Census Bureau,numeric
+234,Geographic - Census,PCT_IN_MGMT,Percent Management,Determines the percent of occupation within a geographical area defined by the Census Bureau,numeric
+235,Geographic - Census,PCT_MARRIED_BY_POPULATION,Percent Married,Determines the percent of marital status within a geographical area defined by the Census Bureau,numeric
+236,Geographic - Census,PCT_MFDU,Percent MFDU,Determines the perecent of a property type within a geographical area defined by the Census Bureau,numeric
+237,Geographic - Census,PCT_MULTIRACE,Percent Multi Race,Determines the percent of race within a geographical area defined by the Census Bureau,numeric
+238,Geographic - Census,PCT_NATIVE_AMERICAN,Percent Native American,Determines the percent of race within a geographical area defined by the Census Bureau,numeric
+239,Geographic - Census,PCT_NON_FAMILY_HH,Percent Non Families,Determines the percent of family composition within a geographical area defined by the Census Bureau,numeric
+240,Geographic - Census,PCT_OTHER_RACE,Percent Other Race,Determines the percent of race within a geographical area defined by the Census Bureau,numeric
+241,Geographic - Census,PCT_OTHER_SPEAKING,Percent Other Speaking,Determines the percent of a language within a geographical area defined by the Census Bureau,numeric
+242,Geographic - Census,PCT_OWNER_OCCUPIED,Percent Owner Occupied,Determines the percent of a household composition within a geographical area defined by the Census Bureau,numeric
+243,Geographic - Census,PCT_PACIFIC_ISLE,Percent Pacific Islander,Determines the percent of race within a geographical area defined by the Census Bureau,numeric
+244,Geographic - Census,PCT_RENTER_OCCUPIED,Percent Renter Occupied,Determines the percent of a household composition within a geographical area defined by the Census Bureau,numeric
+245,Geographic - Census,PCT_IN_SALES,Percent Sales,Determines the percent of occupation within a geographical area defined by the Census Bureau,numeric
+246,Geographic - Census,PCT_SCHOOL_ENROLLED,Percent School Enrollment,Determines the percent of school enrollment within a geographical area defined by the Census Bureau,numeric
+247,Geographic - Census,PCT_IN_SERVICE,Percent Service,Determines the percent of occupation within a geographical area defined by the Census Bureau,numeric
+248,Geographic - Census,PCT_SFDU,Percent SFDU,Determines the perecent of a property type within a geographical area defined by the Census Bureau,numeric
+249,Geographic - Census,PCT_SPANISH_SPEAKING,Percent Spanish Speaking,Determines the percent of a language within a geographical area defined by the Census Bureau,numeric
+250,Geographic - Census,PCT_IN_PROD_TRANS,Percent Transportation,Determines the percent of occupation within a geographical area defined by the Census Bureau,numeric
+251,Geographic - Census,PCT_WHITE,Percent White,Determines the percent of race within a geographical area defined by the Census Bureau,numeric
+252,Geographic - Location,CBSA_CODE,CBSA Code,Geographic area defined by the Census Bureau,categorical
+253,Geographic - Location,CBSA_DIVISION_CODE,CBSA Division Code,"Code assigned to a subset of a CBSA, as defined by the Census Bureau",categorical
+254,Geographic - Location,CBSA_DIVISION_LEVEL,CBSA Division Level,Indicates whether the CBSA Division is an MSA (Metropolitan Statistical Area) or not,dummy
+255,Geographic - Location,Census_Tract,Census Tract,Geographic boundary set by the Census Bureau,categorical
+256,Geographic - Location,Census_Block_Group,Census Block Group,Geographic unit used by the Census Bureau,categorical
+257,Geographic - Location,Census_Block_ID,Census Block ID,Geographic ID associated to a Census Block Group,categorical
+258,Geographic - Location,CONGRESS_DIST,Congressional District,"Code for a congressional district, based on population and defined by the Census Bureau",categorical
+259,Geographic - Census,COUNTY_NAME,County,"Name of county, or administrative subdivision, of a state",categorical
+260,Geographic - Census,COUNTY_CODE,County Code,Federal Information Processing Standards code assigned to a county,categorical
+261,Geographic - Location,MSA,MSA Code,Metropolitan Statistical Area Code,categorical
+262,Geographic - Location,STATE,State Code,State Abbreviation,categorical
+263,Geographic - Location,ZIP11,ZIP11,ZIP11,categorical
+264,Geographic - Census,FIPS,FIPS,FIPS,categorical
+265,Geographic - Location,URBANICITY,Urbanicity,"Urbanicity code (Rural, Urban, Suburban )",categorical
+266,Consumer Finance - Credit Cards,CVH02,Low Card Spenders,Indicates lower than average spending based on credit card activity over last 12 months,dummy
+267,Consumer Finance - Credit Cards,CVH06,High Card Spenders,Indicates higher than average spending based on credit card activity over last 12 months,dummy
+268,Consumer Finance - Credit Cards,CVH14,Decrease in Year-Over-Year Spend over 12-Months,Decrease in average credit card spend over the most recent 12 months versus the prior 12 months,dummy
+269,Consumer Finance - Credit Cards,CVH18,Increase in Year-Over-Year Spend over 12-Months,Increase in average credit card spend over the most recent 12 months versus the prior 12 months,dummy
+270,Consumer Finance - Credit Cards,CVH20,Decrease in Year-Over-Year Spend over 3-Months,Decrease in average credit card spend this quarter vs. the same quarter one year ago,dummy
+271,Consumer Finance - Credit Cards,CVH24,Increase in Year-Over-Year Spend over 3-Months,Increase in average credit card spend this quarter vs. the same quarter one year ago,dummy
+272,Consumer Finance - Installment Loans,CVH48,Low Prepayers on Loans,Measures average total amount or number of times prepaid on installment loans in last 12 months - average on lower scale,dummy
+273,Consumer Finance - Installment Loans,CVH52,High Prepayers on Loans,Measures average total amount or number of times prepaid on installment loans in last 12 months - average on higher scale,dummy
+274,Consumer Finance - Credit Cards,CVH54,Low Balance Shift to Other Cards,Aggregated households that moved a low % of credit card balances from one credit card to another card in past 12 months,dummy
+275,Consumer Finance - Credit Cards,CVH58,High Balance Shift to Other Cards,Aggregated households that moved a high % of credit card balances from one credit card to another card in past 12 months,dummy
+276,Consumer Finance - Credit Cards,CVH113,Carries Balance on Cards (Revolvers),Aggregated households with behavior of not paying off full balance on 1 or more credit cards over the course of 3 months,dummy
+277,Consumer Finance - In-Market,CVH128,Most Likely to Apply for an Auto Loan Refinance,"Likelihood to apply for an auto loan refinance within the next 6 months, model reflects top ranking aggregated households",dummy
+278,Consumer Finance - Credit Cards,CVH139,Most Likely to Respond to a Credit Card Offer,"Likelihood to apply for a credit card within the next 3 months, model reflects top ranking aggregated households",dummy
+279,Consumer Finance - In-Market,CVH149,Most Likely to Apply for a Mortgage Loan,"Likelihood to apply for a mortgage loan within the next 3 months, model reflects top ranking aggregated households",dummy
+280,Consumer Finance - In-Market,CVH159,Most Likely to Apply for an Auto Loan,"Likelihood to apply for an auto loan within the next 3 months, model reflects top ranking aggregated households",dummy
+281,Consumer Finance - In-Market,CVH169,Most Likely to Apply for a Personal Loan,"Likelihood to apply for a personal loan within the next 3 months, model reflects top ranking aggregated households",dummy
+282,Consumer Finance - In-Market,CVH205,Most Likely to Apply for a Home Equity Loan,"Likelihood to apply for a home equity loan within the next 3 months, model reflects top ranking aggregated households",dummy
+283,Consumer Finance - Insurance,IHS70,Auto Insurance Most Likely to File a Claim,Indicates the likelihood to file a claim,dummy
+284,Consumer Finance - Insurance,IHS74,Auto Insurance Least Likely to File a Claim,Indicates the likelihood to file a claim,dummy
+285,Consumer Finance - Credit Behavior,CVH190,Sub Prime - 1st Quartile (Lowest Average Credit Score),Measures average aggregated credit score of consumers,dummy
+286,Consumer Finance - Credit Behavior,CVH191,Sub Prime to Near Prime - 2nd Quartile,Measures average aggregated credit score of consumers,dummy
+287,Consumer Finance - Credit Behavior,CVH192,Near Prime to Prime - 3rd Quartile,Measures average aggregated credit score of consumers,dummy
+288,Consumer Finance - Credit Behavior,CVH193,Prime to Super Prime - 4th Quartile (Highest Average Credit Score),Measures average aggregated credit score of consumers,dummy
+289,Consumer Finance - Credit Cards,CHH05,Opened Lowest # of New Accounts,Lowest number of new consumer credit accounts opened in the past twelve (12) months,dummy
+290,Consumer Finance - Credit Cards,CHH08,Opened Highest # of New Accounts,Highest number of new consumer credit accounts opened in the past twelve (12) months,dummy
+291,Consumer Finance - Credit Card,CHH17,Low Recent Card App. Activity,Aggregated households with low recent credit card application activity in past six (6) months,dummy
+292,Consumer Finance - Credit Cards,CHH20,High Recent Card App. Activity,Aggregated households with high recent credit card application activity in past six (6) months,dummy
+293,Automotive - Auto & Vehicle Financing,CHA01,"Lowest # of Active, Open Auto Loans","Indicates aggregated households with lowest number of active, open auto loans",dummy
+294,Automotive - Auto & Vehicle Financing,CHA04,"Highest # of Active, Open Auto Loans","Indicates aggregated households with highest number of active, open auto loans",dummy
+295,Automotive - Auto & Vehicle Financing,CHA05,Lowest Auto Loan Balance,Indicates aggregated households with lowest balance on open auto loans,dummy
+296,Automotive - Auto & Vehicle Financing,CHA08,Highest Auto Loan Balance,Indicates aggregated households with highest balance on open auto loans,dummy
+297,Consumer Finance - Credit Cards,CHC01,Low # of Active Credit Cards,"Aggregated households with the lowest number of active, open credit cards",dummy
+298,Consumer Finance - Credit Cards,CHC04,High # of Active Credit Cards,"Aggregated households with the highest number of active, open credit cards",dummy
+299,Consumer Finance - Credit Cards,CHC12,Highest Balance to Credit Ratio,"Indicates aggregated households with highest average card utilization, signifying likelihood to shift balances",dummy
+300,Consumer Finance - Credit Cards,CHC13,Low Total Credit Card Balance,Lowest average total credit card balance,dummy
+301,Consumer Finance - Credit Cards,CHC16,High Total Credit Card Balance,Highest average total credit card balance,dummy
+302,Consumer Finance - Credit Card,CHR01,Low # of Active Retail Cards,"Aggregated households with the lowest number of active, open retail credit cards",dummy
+303,Consumer Finance - Credit Cards,CHR04,High # of Active Retail Cards,"Aggregated households with the highest number of active, open retail credit cards",dummy
+304,Consumer Finance - Mortgage,CHM01,Low # of Open Mortgages,"Measures average number of active, open mortgages (e.g. 1st & 2nd, etc.) across aggregated households.",dummy
+305,Consumer Finance - Mortgages,CHM04,High # of Open Mortgages,"Measures average number of active, open mortgages (e.g. 1st & 2nd, etc.) across aggregated households.",dummy
+306,Consumer Finance - Mortgage,CHM05,Low Recent Mortgage Applications,Measures average number of mortgage inquiries in the last six (6) months,dummy
+307,Consumer Finance - Mortgages,CHM06,High Recent Mortgage Applications,Measures average number of mortgage inquiries in the last six (6) months,dummy
+308,Consumer Finance - Mortgages,CHM11,Lowest Outstanding Mortgage Balance,"Measures average outstanding balance of active, open mortgages (e.g. 1st & 2nd, etc.) across aggregated households.",dummy
+309,Consumer Finance - Mortgages,CHM14,Highest Outstanding Mortgage Balance,"Measures average outstanding balance of active, open mortgages (e.g. 1st & 2nd, etc.) across aggregated households.",dummy
+310,Consumer Finance - Insurance,IHS57,Property Insurance Most Likely to File a Claim,Indicates the likelihood to file a claim,dummy
+311,Consumer Finance - Insurance,IHS59,Property Insurance Least Likely to File a Claim,Indicates the likelihood to file a claim,dummy
+312,Consumer Finance - Insurance,IHS61,Lowest Life Insurance Loyalty,Measures average likelihood of aggregated households to continue their life insurance policy for at least 3 years,dummy
+313,Consumer Finance - Insurance,IHS64,Highest Life Insurance Loyalty,Measures average likelihood of aggregated households to continue their life insurance policy for at least 3 years,dummy
+314,Consumer Finance - In-Market,CombineSeg01B,High Income Most Likely to Apply for an Auto Loan,"Likelihood to apply for an auto loan within the next 3 months, model reflects top ranking aggregated households with income of $100K+",dummy
+315,Consumer Finance - In-Market,CombineSeg02B,High Income Most Likely to Respond to a Credit Card Offer,"Likelihood to apply for a credit card within the next 3 months, model reflects top ranking aggregated households with income of $100K+",dummy
+316,Consumer Finance - In-Market,CombineSeg03A,High Income Most Likely to Apply for a Mortgage Loan,"Likelihood to apply for a mortgage loan within the next 3 months, model reflects top ranking aggregated households with income of $100K+",dummy
+317,Consumer Finance - In-Market,CombineSeg06B,Males Most Likely to Apply for an Auto Loan,"Likelihood to apply for an auto loan within the next 3 months, model reflects top ranking aggregated households with males",dummy
+318,Consumer Finance - In-Market,CombineSeg07B,Females Most Likely to Apply for an Auto Loan,"Likelihood to apply for an auto loan within the next 3 months, model reflects top ranking aggregated households with females",dummy
+319,Consumer Finance - In-Market,CombineSeg08A,Young Consumers Likely to Apply for a Mortgage Loan,"Likelihood to apply for a mortgage loan within the next 3 months, model reflects top ranking aggregated households ages 25-34",dummy
+320,Consumer Finance - In-Market,ACDSCOM101,Most Likely to be Shopping for Insurance,Indicates aggregated households with highest average insurance shopping activity.,dummy
+321,Home Ownership / Property - Property,PRPTY001,Residential - Single Family,Indicates a single family residence - includes single family homes and townhomes,dummy
+322,Home Ownership / Property - Property,PRPTY002,Residential - Multi Family,Indicates a multi family residence - includes apartment buildings and condominiums,dummy
+323,Home Ownership / Property - Property,PRPTY003,Commercial,"Indicates a commercial property - includes office buildings, small businesses",dummy
+324,Home Ownership / Property - Property,PRPTY004,Home Built Before 1900,Indicates the age of a single family residence grouped by year built before 1900,dummy
+325,Home Ownership / Property - Property,PRPTY005,Home Built From 1900 - 1940,Indicates the age of a single family residence grouped by year built between 1900 and 1940,dummy
+326,Home Ownership / Property - Property,PRPTY006,Home Built From 1941 - 1950,Indicates the age of a single family residence grouped by year built between 1941 and 1950,dummy
+327,Home Ownership / Property - Property,PRPTY007,Home Built From 1951 - 1960,Indicates the age of a single family residence grouped by year built between 1951 and 1960,dummy
+328,Home Ownership / Property - Property,PRPTY008,Home Built From 1961 - 1970,Indicates the age of a single family residence grouped by year built between 1961 and 1970,dummy
+329,Home Ownership / Property - Property,PRPTY009,Home Built From 1971 - 1980,Indicates the age of a single family residence grouped by year built between 1971 and 1980,dummy
+330,Home Ownership / Property - Property,PRPTY010,Home Built From 1981 - 1990,Indicates the age of a single family residence grouped by year built between 1981 and 1990,dummy
+331,Home Ownership / Property - Property,PRPTY011,Home Built From 1991 - 1995,Indicates the age of a single family residence grouped by year built between 1991 and 1995,dummy
+332,Home Ownership / Property - Property,PRPTY012,Home Built From 1996 - 2000,Indicates the age of a single family residence grouped by year built between 1996 and 2000,dummy
+333,Home Ownership / Property - Property,PRPTY013,Home Built From 2001 - 2005,Indicates the age of a single family residence grouped by year built between 2001 and 2005,dummy
+334,Home Ownership / Property - Property,PRPTY014,Home Built From 2006 - 2010,Indicates the age of a single family residence grouped by year built between 2006 and 2010,dummy
+335,Home Ownership / Property - Property,PRPTY015,Home Built After 2010,Indicates the age of a single family residence grouped by year built after 2010,dummy
+336,Home Ownership / Property - Home Ownership,PRPTY016,Home Ownership Less Than One Year,Indicates length of single family home ownership of less than one year,dummy
+337,Home Ownership / Property - Home Ownership,PRPTY017,Home Ownership 1 - 3 Years,Indicates length of single family home ownership between one and three years,dummy
+338,Home Ownership / Property - Home Ownership,PRPTY018,Home Ownership 3 - 7 Years,Indicates length of single family home ownership between three and seven years,dummy
+339,Home Ownership / Property - Home Ownership,PRPTY019,Home Ownership 7 - 15 Years,Indicates length of single family home ownership between seven and fifteen years,dummy
+340,Home Ownership / Property - Home Ownership,PRPTY020,Home Ownership More Than 15 Years,Indicates length of single family home ownership of more than fifteen years,dummy
+341,Home Ownership / Property - Property,PRPTY021,"Less than $100,000 Home Purchase Price","Indicates single family home purchase price of less than $100,000",dummy
+342,Home Ownership / Property - Property,PRPTY022,"$100,000 - $200,000 Home Purchase Price","Indicates single family home purchase price of $100,000 to $200,000",dummy
+343,Home Ownership / Property - Property,PRPTY023,"$200,001 - $300,000 Home Purchase Price","Indicates single family home purchase price of $200,001 to $300,000",dummy
+344,Home Ownership / Property - Property,PRPTY024,"$300,001 - $400,000 Home Purchase Price","Indicates single family home purchase price of $300,001 to $400,000",dummy
+345,Home Ownership / Property - Property,PRPTY025,"$400,001 - $500,000 Home Purchase Price","Indicates single family home purchase price of $400,001 to $500,000",dummy
+346,Home Ownership / Property - Property,PRPTY026,"$500,001 - $700,000 Home Purchase Price","Indicates single family home purchase price of $500,001 to $700,000",dummy
+347,Home Ownership / Property - Property,PRPTY027,"$700,001 - $1,000,000 Home Price","Indicates single family home purchase price of $700,001 to $1,000,000",dummy
+348,Home Ownership / Property - Property,PRPTY028,"Greater than $1,000,000 Home Price","Indicates single family home purchase price of greater than $1,000,000",dummy
+349,Home Ownership / Property - Property,PRPTY029,"Less than $100,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of less than $100,000",dummy
+350,Home Ownership / Property - Property,PRPTY030,"$100,000 - $150,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of $100,000 to $150,000",dummy
+351,Home Ownership / Property - Property,PRPTY031,"$150,001 - $200,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of $150,001 to $200,000",dummy
+352,Home Ownership / Property - Property,PRPTY032,"$200,001 - $250,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of $200,001 to $250,000",dummy
+353,Home Ownership / Property - Property,PRPTY033,"$250,001 - $300,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of $250,001 to $300,000",dummy
+354,Home Ownership / Property - Property,PRPTY034,"$300,001 - $350,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of $300,001 to $350,000",dummy
+355,Home Ownership / Property - Property,PRPTY035,"$350,001 - $400,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of $350,001 to $400,000",dummy
+356,Home Ownership / Property - Property,PRPTY036,"$400,001 - $450,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of $400,001 to $450,000",dummy
+357,Home Ownership / Property - Property,PRPTY037,"$450,001 - $500,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of $450,001 to $500,000",dummy
+358,Home Ownership / Property - Property,PRPTY038,"$500,001 - $600,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of $500,001 to $600,000",dummy
+359,Home Ownership / Property - Property,PRPTY039,"$600,001- $700,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of $600,001 to $700,000",dummy
+360,Home Ownership / Property - Property,PRPTY040,"$700,001 - $800,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of $700,001 to $800,000",dummy
+361,Home Ownership / Property - Property,PRPTY041,"$800,001 - $1,000,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of $800,001 to $1,000,000",dummy
+362,Home Ownership / Property - Property,PRPTY042,"Greater than $1,000,000 Property Value","Indicates single home value (based on automated valuation model or AVM) of greater than $1,000,000",dummy
+363,Home Ownership / Property - Property,PRPTY043,"Home Size is 1,000 - 1,499 Square Feet","Indicates the square footage of a home is between 1,000 and 1,499 square feet",dummy
+364,Home Ownership / Property - Property,PRPTY044,"Home Size is 1,500 - 2,000 Square Feet","Indicates the square footage of a home is between 1,500 and 2,000 square feet",dummy
+365,Home Ownership / Property - Property,PRPTY045,"Home Size is 2,001 - 3,000 Square Feet","Indicates the square footage of a home is between 2,001 and 3,000 square feet",dummy
+366,Home Ownership / Property - Property,PRPTY046,"Home Size is +3,000 Square Feet","Indicates the square footage of a home is greater than 3,000 square feet",dummy
+367,Home Ownership / Property - Property,PRPTY047,0 Bedrooms,"Indicates the number of bedrooms in a home is zero (studio, etc.)",dummy
+368,Home Ownership / Property - Property,PRPTY048,1 - 2 Bedrooms,Indicates the number of bedrooms in a home is one or two,dummy
+369,Home Ownership / Property - Property,PRPTY049,3 Bedrooms,Indicates the number of bedrooms in a home is three,dummy
+370,Home Ownership / Property - Property,PRPTY050,4 Bedrooms,Indicates the number of bedrooms in a home is four,dummy
+371,Home Ownership / Property - Property,PRPTY051,5+ Bedrooms,Indicates the number of bedrooms in a home is five or more,dummy
+372,Home Ownership / Property - Property,PRPTY052,Has Swimming Pool,Indicates the presence of a swimming pool on a property,dummy
+373,Home Ownership / Property - Property,PRPTY053,Air Conditioning,Indicates the presence of air conditioning in a home,dummy
+374,Home Ownership / Property - Property,PRPTY054,Heating,Indicates the presence of heating in a home,dummy
+375,Home Ownership / Property - Property,PRPTY055,Aluminum or Vinyl,Indicates the exterior siding material of a home is aluminum or vinyl,dummy
+376,Home Ownership / Property - Property,PRPTY056,Brick,Indicates the exterior siding material of a home is brick,dummy
+377,Home Ownership / Property - Property,PRPTY057,Wood,Indicates the exterior siding material of a home is wood,dummy
+378,Home Ownership / Property - Property,PRPTY058,1 Car Garage,Indicates the number of parking spots in a garage is one,dummy
+379,Home Ownership / Property - Property,PRPTY059,2 Car Garage,Indicates the number of parking spots in a garage is two,dummy
+380,Home Ownership / Property - Property,PRPTY060,3 Car Garage,Indicates the number of parking spots in a garage is three,dummy
+381,Home Ownership / Property - Property,PRPTY061,4+ Car Garage,Indicates the number of parking spots in a garage is four or more,dummy
+382,Home Ownership / Property - Property,PRPTY062,Attached Garage,Indicates the presence of a garage attached to a property,dummy
+383,Home Ownership / Property - Property,PRPTY063,Has Garage,Indicates the presence of a garage on a property,dummy
+384,Home Ownership / Property - Property,PRPTY064,Asphalt,Indicates the roofing material of a home is asphalt,dummy
+385,Home Ownership / Property - Property,PRPTY065,Composition Shingle,Indicates the roofing material of a home is composition shingle,dummy
+386,Home Ownership / Property - Property,PRPTY066,Metal,Indicates the roofing material of a home is metal,dummy
+387,Home Ownership / Property - Property,PRPTY067,Shingle (Non-Wood),Indicates the roofing material of a home is shingle not made of wood,dummy
+388,Home Ownership / Property - Property,PRPTY068,Tile,Indicates the roofing material of a home is tile,dummy
+389,Home Ownership / Property - Property,PRPTY069,Other,"Indicates the roofing material of a home is other than asphalt, composition shingle, metal, non-wood shingle, or tile",dummy
+390,Home Ownership / Property - Property,PRPTY070,Recent First Time Home Buyer,First time homebuyer that has purchased a home in last 90 days and has not owned property in last 3 years (FHA definition),dummy
+391,Home Ownership / Property - Mortgage,PRPTY077,Purchased Home in Last Six Months,Indicates homebuyer that purchased within the last six months,dummy
+392,Home Ownership / Property - Property,PRPTY079,Purchased Home in Last Twelve Months,Indicates homebuyer that purchased within the last twelve months,dummy
+393,Home Ownership / Property - Home Ownership,PRPTY080,Home Owner,Indicates a homeowner,dummy
+394,Home Ownership / Property - Property,PRPTY081,Renter,Indicates a renter,dummy
+395,Home Ownership / Property - Property,PRPTY082,Property Investor,Indicates a property investor,dummy
+396,Home Ownership / Property - Property,PRPTY088,Single Family Residence,Indicates the type of home to be a single family residence (includes planned unit developments),dummy
+397,Home Ownership / Property - Property,PRPTY089,Multifamily 2 - 4 Units,Indicates the type of home to be a multifamily (includes townhouses and condominiums) between 2-4 units,dummy
+398,Home Ownership / Property - Property,PRPTY090,Multifamily 5+ Units,Indicates the type of home to be a multifamily of 5 units or greater,dummy
+399,Home Ownership / Property - Property,PRPTY091,Manufactured Housing,Indicates the type of home to be manufactured housing,dummy
+400,Home Ownership / Property - Property,PRPTY093,Property Less Than 0.25 Acres,Indicates the property size of a home to be less than 0.25 acres,dummy
+401,Home Ownership / Property - Property,PRPTY094,Property Size Between 0.26 - 0.5 Acres,Indicates the property size of a home to be between 0.26 and 0.5 acres,dummy
+402,Home Ownership / Property - Property,PRPTY095,Property Size Between 0.51 - 0.75 Acres,Indicates the property size of a home to be between 0.51 and 0.75 acres,dummy
+403,Home Ownership / Property - Property,PRPTY096,Property Size Between 0.76 - 1 Acres,Indicates the property size of a home to be between 0.76 and 1 acres,dummy
+404,Home Ownership / Property - Property,PRPTY097,Property Size Between 1.01 - 5 Acres,Indicates the property size of a home to be between 1.01 and 5 acres,dummy
+405,Home Ownership / Property - Property,PRPTY098,Property Size Between 5.01 - 10 Acres,Indicates the property size of a home to be between 5.01 and 10 acres,dummy
+406,Home Ownership / Property - Property,PRPTY099,Property Size Between 10.01 - 20 Acres,Indicates the property size of a home to be between 10.01 and 20 acres,dummy
+407,Home Ownership / Property - Property,PRPTY100,Property Size Between 20.01 - 30 Acres,Indicates the property size of a home to be between 20.01 and 30 acres,dummy
+408,Home Ownership / Property - Property,PRPTY101,Property Size Between 30.01 - 40 Acres,Indicates the property size of a home to be between 30.01 and 40 acres,dummy
+409,Home Ownership / Property - Property,PRPTY102,Property Size Greater than 40 Acres,Indicates the property size of a home to be greater than 40 acres,dummy
+410,Home Ownership / Property - Property,PRPTY105,"Mortgage is Less Than $50,000","Indicates a mortgage loan amount of less than $50,000",dummy
+411,Home Ownership / Property - Property,PRPTY106,"Mortgage is $50,000 - $100,000","Indicates a mortgage loan amount of $50,000 to $100,000",dummy
+412,Home Ownership / Property - Property,PRPTY107,"Mortgage is $100,001 - $150,000","Indicates a mortgage loan amount of $100,001 to $150,000",dummy
+413,Home Ownership / Property - Property,PRPTY108,"Mortgage is $150,001 - $200,000","Indicates a mortgage loan amount of $150,001 to $200,000",dummy
+414,Home Ownership / Property - Property,PRPTY109,"Mortgage is $200,001 - $250,000","Indicates a mortgage loan amount of $200,001 to $250,000",dummy
+415,Home Ownership / Property - Property,PRPTY110,"Mortgage is $250,001 - $300,000","Indicates a mortgage loan amount of $250,001 to $300,000",dummy
+416,Home Ownership / Property - Property,PRPTY111,"Mortgage is $300,001 - $350,000","Indicates a mortgage loan amount of $300,001 to $350,000",dummy
+417,Home Ownership / Property - Property,PRPTY112,"Mortgage is $350,001 - $400,000","Indicates a mortgage loan amount of $350,001 to $400,000",dummy
+418,Home Ownership / Property - Property,PRPTY113,"Mortgage is $400,001 - $453,100","Indicates a mortgage loan amount of $400,001 to $453,100",dummy
+419,Home Ownership / Property - Property,PRPTY114,"Mortgage is Greater than $453,100","Indicates a mortgage loan amount of greater than $453,100",dummy
+420,Home Ownership / Property - Property,PRPTY116,First Time Home Buyer Mortgage (FHA),Indicates the type of mortgage loan opened is first time homebuyer (as classified by FHA),dummy
+421,Home Ownership / Property - Property,PRPTY117,VA Mortgage,Indicates the type of mortgage loan opened is a Veteran/VA loan,dummy
+422,Home Ownership / Property - Property,PRPTY120,Refinance Mortgage Loan,Indicates the mortgage loan transaction type is a refinance,dummy
+423,Home Ownership / Property - Home Ownership,PRPTY121,Homeowners Association Member,Indicates a homeowners association member,dummy
+424,Home Ownership / Property - Mortgage,PRPTY124,0-1 Year Since Last Mortgage,Indicates the length of time since the last home loan was originated as 0-1 Year,dummy
+425,Home Ownership / Property - Property,PRPTY125,1-3 Years Since Last Mortgage,Indicates the length of time since the last home loan was originated as 1-3 Years,dummy
+426,Home Ownership / Property - Property,PRPTY126,3-5 Years Since Last Mortgage,Indicates the length of time since the last home loan was originated as 3-5 years,dummy
+427,Home Ownership / Property - Property,PRPTY127,5-7 Years Since Last Mortgage,Indicates the length of time since the last home loan was originated as 5-7 years,dummy
+428,Home Ownership / Property - Property,PRPTY128,7-10 Years Since Last Mortgage,Indicates the length of time since the last home loan was originated as 7-10 years,dummy
+429,Home Ownership / Property - Property,PRPTY129,10-15 Years Since Last Mortgage,Indicates the length of time since the last home loan was originated as 10-15 years,dummy
+430,Home Ownership / Property - Property,PRPTY130,15+ Years Since Last Mortgage,Indicates the length of time since the last home loan was originated as more than 15+ years,dummy
+431,Home Ownership / Property - Mortgage,PRPTY143,Free and Clear Homeowners,Indicates there is no mortgage or home equity loans on the property,dummy
+432,Home Ownership / Property - Mortgage,PRPTY144,Low Loan to Value,Indicates the ratio of mortgage and home equity loans taken out on the property to the property value as less than 50%.,dummy
+433,Home Ownership / Property - Mortgage,PRPTYCOM101,Moderate Loan to Value,Indicates the ratio of mortgage and home equity loans taken out on the property to the property value as 50 - 80%,dummy
+434,Home Ownership / Property - Mortgage,PRPTYCOM102,High Loan to Value,Indicates the ratio of mortgage and home equity loans taken out on the property to the property value as more than 80%,dummy
+435,Home Ownership / Property - Property,PRPTYCOM103,Home has Appreciated in Last 12 Mos.,Indicates that a home value (based on AVM or Automated Valuation Model) has likely appreciated in last 12 months. ,dummy
+436,Home Ownership / Property - Property,PRPTYCOM104,Home has Depreciated in Last 12 Mos.,Indicates that a home value (based on AVM or Automated Valuation Model) has likely depreciated in last 12 months,dummy
+437,Home Ownership / Property - Mortgage,PRPTYCOM105,Low Home Equity Balance,Ratio of available home equity to the property value. Indicates the home value less the mortgage and home equity loan amounts,dummy
+438,Home Ownership / Property - Mortgage,PRPTYCOM106,High Home Equity Balance,Ratio of available home equity to the property value. Indicates the home value less the mortgage and home equity loan amounts,dummy
+439,Consumer Finance - In-Market,CombineSeg04B,High Income Most Likely to Apply for a Home Equity Loan,"Likelihood to apply for a home equity loan within the next 3 months, model reflects top ranking aggregated households with income of $100K+",dummy
+440,Automotive - Auto & Vehicle Financing,lease_end_3mo,Auto Lease End in 0-3 Months,Indicates aggregated households with an auto lease that ends within the next 0-3 months,dummy
+441,Automotive - Auto & Vehicle Financing,lease_end_6mo,Auto Lease End in 4-6 Months,Indicates aggregated households with an auto lease that ends within the next 4-6 months,dummy
+442,Automotive - Auto & Vehicle Financing,lease_end_9mo,Auto Lease End 7-9 Months,Indicates aggregated households with an auto lease that ends within the next 7-9 months,dummy
+443,Automotive - Auto & Vehicle Financing,lease_end_12mo,Auto Lease End 10-12 Months,Indicates aggregated households with an auto lease that ends within the next 10-12 months,dummy
+444,Demographic - Education,EDU100,Highest Education Achieved - High School,Indicates the highest education level achieved,dummy
+445,Demographic - Education,EDU101,Highest Education Achieved - Some College,Indicates the highest education level achieved,dummy
+446,Demographic - Education,EDU102,Highest Education Achieved - College Graduates,Indicates the highest education level achieved,dummy
+447,Demographic - Education,EDU103,Highest Education Achieved - Graduate School Graduates,Indicates the highest education level achieved,dummy
+448,Household Composition - Property,CHILD0,0 Children in Household,Indicates presence of no children in a household,dummy
+449,Household Composition - Property,CHILD1,1 Children in Household,Indicates presence of one child in a household,dummy
+450,Household Composition - Property,CHILD2,2 Children in Household,Indicates presence of two children in a household,dummy
+451,Household Composition - Property,CHILD3,3 Children in Household,Indicates presence of three children in a household,dummy
+452,Household Composition - Property,CHILD4,4+ Children in Household,Indicates presence of four or more children in a household,dummy
+453,Demographic - Time at Current Address,CHH01,Shortest Time at Current Address,Shortest average tenure at consumers' address,dummy
+454,Demographic - Time at Current Address,CHH04,Longest Time at Current Address,Longest average tenure at consumers' address,dummy
+455,Household Composition - Children in Household,POC,Children in Household - All Ages,Indicates households with presence of children,dummy
+456,Demographic - Veteran Status,PRPTY169,Likely Member of U.S. Military,Likely current or former member of the U.S. Military,dummy
+457,Demographic - Life Events & Marital Status,MA1696,New Movers,Indicates a consumer that has just moved in the last three months,dummy
+458,Business - Employee & Owner,MA1701,Occupation Code,Occupation Code - Rolled Up To 52 Codes,dummy
+459,Business - Employee & Owner,MA1702,Occupation Code Detail,Expanded Occupation Codes,dummy
+460,Home Ownership & Property - Property,MA1797,Air Conditioning Type,Indicates the type of air conditioning in a home,dummy
+461,Home Ownership & Property - Property,MA1798,Heating Type,Indicates the type of heating in a home,dummy

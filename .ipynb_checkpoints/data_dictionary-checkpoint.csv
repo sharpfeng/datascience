@@ -1,0 +1,260 @@
+﻿,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Category,column_name,attribute_name,attribute_description,modeled,Field Type / Maximum Field Length,Field Description,Example Field Data,Delimiter, Current Refresh - Fill Rate ,Current Refresh - Percent of Total 
+Household Composition - Household Members,gen_in_household,Generations,Indicates the number of family generations in a household,No,string(01),"1 = 1 Generation - 1 Adult
+2 = 2 Generations - Adult / Child
+3 = 3 Generations - Adult / Child / Parent
+Unknown = (null)",1,Pipe," 139,260,694 ",49%
+Retail Purchase - Credit Card / Financing,num_credit_lines,Purchase Using Credit,Indicates credit purchases made in multiple retail stores,No,string(01),"1 = 1 Line of credit
+2 = 2 Lines of credit
+3 = 3 Lines of credit
+4 = 4 Lines of credit
+5 = 5 Lines of credit
+6 = 6 Lines of credit
+7 = 7 Lines of credit
+8 = 8 Lines of credit
+9 = 9 Lines of credit
+Unknown = (null)",0,Pipe," 70,775,286 ",25%
+Household Composition - Household Members,num_of_adult,Number of Adults,Number of adults in the household,No,string(01),"1 = One adult, 
+2 = Two adults, 
+3 = Three adults, 
+4 = Four adults, 
+5 = Five adults, 
+6 = Six adults, 
+7 = Seven adults, 
+8 = Eight adults, 
+9 = Nine or more adults
+Unknown = (null)",5,Pipe," 165,879,217 ",58%
+Household Composition - Household Members,num_in_household,Number of People,Number of people in the household,No,string(01),"1 = One person, 
+2 = Two persons, 
+3 = Three persons, 
+4 = Four persons, 
+5 = Five persons, 
+6 = Six persons, 
+7 = Seven persons, 
+8 = Eight persons, 
+9 = Nine or more persons
+Unknown = (null)",1,Pipe," 166,641,915 ",58%
+Interest / Hobby - Contributor / Donor,contributor_index,Contributor Index,Indicates propensity to be a charitable donor,Yes,string(02),"1 Very Likely, 2,3,4,5,6,7,8,9, 10 Least Likely / Unknown = (null)",2,Pipe," 111,619,841 ",39%
+Household Composition - Household Members,inferred_household_rank,Household Rank,"Indicates the inferred household rank, from 1 - 9, of an individual in the household",No,string(01),"1= Inferred rank in household of 1st
+2 = Inferred rank in household of 2nd
+3 = Inferred rank in household of 3rd
+4 = Inferred rank in household of 4th
+5 = Inferred rank in household of 5th
+6 = Inferred rank in household of 6th
+7 = Inferred rank in household of 7th
+8 = Inferred rank in household of 8th
+9 = Inferred rank in household of 9th
+Unknown = (null)",2,Pipe," 167,739,226 ",59%
+Demographic - Age / Gender,Age,Age,Age,No,decimal(03),3 byte decimal value. Range : 18-100.,41,Pipe," 274,509,698 ",96%
+Household Composition - Household Members,family_position,Family Position,"Indicates the role of a family member such as husband, wife, grandmother, etc.",No,string(01),"C = Child, 
+F = Female head of household, 
+G = Grandmother, 
+H = Husband, 
+M = Male head of household, 
+P = Grandfather, 
+W = Wife, 
+O = Other
+Unknown = (null)",G,Pipe," 60,036,269 ",21%
+Household Composition - Political,political_affiliation,Political,Political affiliation,No,string(01),"D = Democratic party, 
+R = Republican party, 
+I = Independent,
+Unknown = (null)",I,Pipe," 107,101,747 ",37%
+Home Ownership / Property - Home Ownership,residental_properties_owned,Properties Owned,Indicates the estimated number of housing investment properties owned,No,string(01),"integer 1-9
+Unknown = (null)",2,Pipe," 6,473,230 ",2%
+Demographic - Marital Status,marital_status,Marital Status,Marital status,No,string(01),"M = Married, 
+S = Single
+Unknown = (null)",M,Pipe," 162,945,296 ",57%
+Demographic - Age / Gender,Gender,Gender,Gender,No,string(01),"M(ale), F(emale), B(both),I(Indeterminate),Unknown(null)",F,Pipe," 286,052,860 ",100%
+Demographic - Income,Income,Income,Estimated Household Income,Yes,decimal(05),"The middle value in the distribution of income (expressed in thousands). Range : 1-999.
+Unknown = (null)",44000,Pipe," 271,879,500 ",95%
+Automotive - Auto Owner,rv_own,RV Owner,Recreational vehicle ownership code,No,string(01),Yes(1) / No(null),1,Pipe," 13,156,231 ",5%
+Automotive - Auto Owner,truck_owner,Truck Owner,Truck owner code - owns a truck or pickup,No,string(01),Yes(1) / No(null),1,Pipe," 37,424,478 ",13%
+Automotive - Motorcycle,motor_cycle,Motorcycle,Motorcycle ownership code,No,string(01),Yes(1) / No(null),1,Pipe," 11,101,956 ",4%
+Business - Employee / Owner,working_woman,Working Woman,Indicates that a working woman is present in the household,No,string(01),Yes(1) / No(null),1,Pipe," 66,824,552 ",23%
+Business - Firmographic,soho_business,SOHO business,Operates a home based business,No,string(01),Yes(1) / No(null),1,Pipe," 36,752,721 ",13%
+Consumer Finance - Mortgage,PRPTY077,Purchased Home in Last Six Months,Indicates homebuyer that purchased within the last six months,No,string(01),Yes(1) / No(null),1,Pipe," 4,163,111 ",1%
+Demographic - Education,EDU100,Highest Education Achieved - High School,Indicates the highest education level achieved,No,string(01),Yes(1) / No(null),1,Pipe," 38,491,308 ",13%
+Demographic - Education,EDU101,Highest Education Achieved - Some College,Indicates the highest education level achieved,No,string(01),Yes(1) / No(null),1,Pipe," 31,475,103 ",11%
+Demographic - Education,EDU102,Highest Education Achieved - College Graduates,Indicates the highest education level achieved,No,string(01),Yes(1) / No(null),1,Pipe," 11,970,865 ",4%
+Demographic - Education,EDU103,Highest Education Achieved - Graduate School Graduates,Indicates the highest education level achieved,No,string(01),Yes(1) / No(null),1,Pipe," 2,199,092 ",1%
+Demographic - Family Composition,Likely_Recent_Empty_Nester,Likely Recent Empty Divorced,Indicates the likeliness of an empty nester where an adult child (18+) has left the home within the last twelve months,No,string(01),Yes(1) / No(null),1,Pipe," 297,213 ",0%
+Demographic - Marital Status,Likely_Recently_Divorced,Likely Recently Divorced,Indicates the likeliness of a divorce within the last twelve months,No,string(01),Yes(1) / No(null),1,Pipe," 595,294 ",0%
+Demographic - Veteran Status,PRPTY169,Likely Member of U.S. Military,Likely current or former member of the U.S. Military,No,string(01),Yes(1) / No(null),1,\r\n," 11,731,607 ",4%
+Household Composition - Children in Household,childrenage0_3gender_female,Presence of Children Age Gender,Children ages 0 to 3 gender Female,No,string(01),Yes(1) / No(null),1,Pipe," 1,139,249 ",0%
+Household Composition - Children in Household,childrenage0_3gender_male,Presence of Children Age Gender,Children ages 0 to 3 gender Male,No,string(01),Yes(1) / No(null),1,Pipe," 1,083,396 ",0%
+Household Composition - Children in Household,childrenage10_12gender_female,Presence of Children Age Gender,Children ages 10 to 12  gender Female,No,string(01),Yes(1) / No(null),1,Pipe," 13,557,296 ",5%
+Household Composition - Children in Household,childrenage10_12gender_male,Presence of Children Age Gender,Children ages 10 to 12 gender Male,No,string(01),Yes(1) / No(null),1,Pipe," 12,573,840 ",4%
+Household Composition - Children in Household,childrenage13_18gender_female,Presence of Children Age Gender,Children ages 13 to 18 gender Female,No,string(01),Yes(1) / No(null),1,Pipe," 11,869,346 ",4%
+Household Composition - Children in Household,childrenage13_18gender_male,Presence of Children Age Gender,Children ages 13 to 18 gender Male,No,string(01),Yes(1) / No(null),1,Pipe," 10,914,061 ",4%
+Household Composition - Children in Household,childrenage4_6gender_female,Presence of Children Age Gender,Children ages 4 to 6 gender Female,No,string(01),Yes(1) / No(null),1,Pipe," 5,988,370 ",2%
+Household Composition - Children in Household,childrenage4_6gender_male,Presence of Children Age Gender,Children ages 4 to 6 gender Male,No,string(01),Yes(1) / No(null),1,Pipe," 5,673,336 ",2%
+Household Composition - Children in Household,childrenage7_9gender_female,Presence of Children Age Gender,Children ages 7 to 9 gender Female,No,string(01),Yes(1) / No(null),1,Pipe," 12,159,005 ",4%
+Household Composition - Children in Household,childrenage7_9gender_male,Presence of Children Age Gender,Children ages 7 to 9 gender Male,No,string(01),Yes(1) / No(null),1,Pipe," 11,825,126 ",4%
+Household Composition - Children in Household,poc,Children in Household - All Ages,Indicates households with presence of children,No,string(01),Yes(1) / No(null),1,Pipe," 108,930,347 ",38%
+Household Composition - Grandchildren,general_info_grandchildren_le_,Grandchildren,Grandchildren less than or equal to 12 years old,No,string(01),Yes(1) / No(null),1,Pipe," 17,138,526 ",6%
+Household Composition - Household Members,presence_of_elderly_parent,Elderly Parent,Presence of elderly relative,No,string(01),Yes(1) / No(null),1,Pipe," 51,238,987 ",18%
+Household Composition - Household Members,young_adult_in_household,Young Adult,Young adult in household,No,string(01),Yes(1) / No(null),1,Pipe," 32,174,129 ",11%
+Household Composition - Military,veteran_in_household,Veteran,Veteran in household,No,string(01),Yes(1) / No(null),1,Pipe," 7,706,075 ",3%
+Household Composition - Pet Owner,pets,Pet Owner,Owns at least one pet,No,string(01),Yes(1) / No(null),1,Pipe," 58,316,340 ",20%
+Household Composition - Pet Owner,pets_own_at_least_one_cat,Cat Owner,Owns at least one cat,No,string(01),Yes(1) / No(null),1,Pipe," 29,492,098 ",10%
+Household Composition - Pet Owner,pets_own_at_least_one_dog,Dog Owner,Owns at least one dog,No,string(01),Yes(1) / No(null),1,Pipe," 43,020,608 ",15%
+Household Composition - Political,voter_indicator,Voter,Known registered voter,No,string(01),Yes(1) / No(null),1,Pipe," 78,271,301 ",27%
+Household Composition - Property,CHILD0,0 Children in Household,Indicates presence of no children in a household,No,string(01),Yes(1) / No(null),1,Pipe," 26,509,491 ",9%
+Household Composition - Property,CHILD1,1 Children in Household,Indicates presence of one child in a household,No,string(01),Yes(1) / No(null),1,Pipe," 45,199,460 ",16%
+Household Composition - Property,CHILD2,2 Children in Household,Indicates presence of two children in a household,No,string(01),Yes(1) / No(null),1,Pipe," 28,147,087 ",10%
+Household Composition - Property,CHILD3,3 Children in Household,Indicates presence of three children in a household,No,string(01),Yes(1) / No(null),1,Pipe," 18,017,283 ",6%
+Household Composition - Property,CHILD4,4+ Children in Household,Indicates presence of four or more children in a household,No,string(01),Yes(1) / No(null),1,Pipe," 17,099,861 ",6%
+Interest / Hobby - Arts / Photography,cultural_artistic,Cultural Arts,Interest in cultural / artistic,No,string(01),Yes(1) / No(null),1,Pipe," 1,406,450 ",0%
+Interest / Hobby - Arts / Photography,hobby_photography,Photography,Interest in photography or videography,No,string(01),Yes(1) / No(null),1,Pipe," 25,106,100 ",9%
+Interest / Hobby - Auto & Vehicles,auto_motorcycle_racing,Auto / Motorcycle Racing,Interest in auto / motorcycle racing,No,string(01),Yes(1) / No(null),1,Pipe," 16,452,006 ",6%
+Interest / Hobby - Auto & Vehicles,auto_work,Auto Work,Interest in auto work,No,string(01),Yes(1) / No(null),1,Pipe," 59,957,111 ",21%
+Interest / Hobby - Auto & Vehicles,cars,Cars,Car interest,No,string(01),Yes(1) / No(null),1,Pipe," 42,634,286 ",15%
+Interest / Hobby - Business,career_minded,Career Minded,Career minded interest,No,string(01),Yes(1) / No(null),1,Pipe," 29,615,407 ",10%
+Interest / Hobby - Children,children_interests,Children Interest,Interest in children's activities,No,string(01),Yes(1) / No(null),1,Pipe," 72,306,260 ",25%
+Interest / Hobby - Children,toys,Toys,Interest in toys,No,string(01),Yes(1) / No(null),1,Pipe," 62,866,953 ",22%
+Interest / Hobby - Collector,collect_specialfoodsbuyer,Collector Special Foods,Collects special foods buyer,No,string(01),Yes(1) / No(null),1,Pipe," 55,560,443 ",19%
+Interest / Hobby - Collector,collector_antiques,Collector Antiques,Collects antiques,No,string(01),Yes(1) / No(null),1,Pipe," 68,313,226 ",24%
+Interest / Hobby - Collector,collector_coins,Collector Coins ,Collects coins,No,string(01),Yes(1) / No(null),1,Pipe," 20,562,467 ",7%
+Interest / Hobby - Collector,collector_dolls,Collector Dolls,Collects dolls,No,string(01),Yes(1) / No(null),1,Pipe," 3,332,914 ",1%
+Interest / Hobby - Collector,collector_figurines,Collector Figurines,Collects figurines,No,string(01),Yes(1) / No(null),1,Pipe," 4,692,931 ",2%
+Interest / Hobby - Collector,collector_fine_arts,Collector Fine Art,Collects fine art,No,string(01),Yes(1) / No(null),1,Pipe," 4,957,411 ",2%
+Interest / Hobby - Collector,collector_music,Collector Music,Interest in collecting music,No,string(01),Yes(1) / No(null),1,Pipe," 6,086,957 ",2%
+Interest / Hobby - Collector,collector_plates,Collector Plates,Collects plates,No,string(01),Yes(1) / No(null),1,Pipe," 2,342,740 ",1%
+Interest / Hobby - Collector,collector_sports_memorabilia,Collector Sports Memorabilia,Collects sports memorabilia,No,string(01),Yes(1) / No(null),1,Pipe," 16,911,334 ",6%
+Interest / Hobby - Collector,collector_stamps,Collector Stamps,Collects stamps,No,string(01),Yes(1) / No(null),1,Pipe," 11,363,476 ",4%
+Interest / Hobby - Collector,collectors,Collectors,Collectors,No,string(01),Yes(1) / No(null),1,Pipe," 78,854,631 ",28%
+Interest / Hobby - Contributor / Donor,contribute_animal,Contributor Animal,Animal contributor,No,string(01),Yes(1) / No(null),1,Pipe," 15,733,146 ",6%
+Interest / Hobby - Contributor / Donor,contribute_childrens,Contributor Children,Children's' contributor,No,string(01),Yes(1) / No(null),1,Pipe," 19,152,916 ",7%
+Interest / Hobby - Contributor / Donor,contribute_environm,Contributor Environmental,Environmental contributor,No,string(01),Yes(1) / No(null),1,Pipe," 20,973,868 ",7%
+Interest / Hobby - Contributor / Donor,contribute_health,Contributor Health,Health contributor,No,string(01),Yes(1) / No(null),1,Pipe," 32,526,070 ",11%
+Interest / Hobby - Contributor / Donor,contribute_political,Contributor Political,Political contributor,No,string(01),Yes(1) / No(null),1,Pipe," 68,222,023 ",24%
+Interest / Hobby - Contributor / Donor,contribute_political_conservat,Contributor Political Conservative,Donates to conservative political party,No,string(01),Yes(1) / No(null),1,Pipe," 56,311,389 ",20%
+Interest / Hobby - Contributor / Donor,contribute_political_liberal,Contributor Political Liberal,Donates to liberal party,No,string(01),Yes(1) / No(null),1,Pipe," 7,927,245 ",3%
+Interest / Hobby - Contributor / Donor,contribute_religious,Contributor Religion,Religious contributor,No,string(01),Yes(1) / No(null),1,Pipe," 21,860,155 ",8%
+Interest / Hobby - Contributor / Donor,contribute_veterans,Contributor Veteran,Veterans contributor,No,string(01),Yes(1) / No(null),1,Pipe," 13,799,365 ",5%
+Interest / Hobby - Contributor / Donor,contributors,Contributors,General contributor,No,string(01),Yes(1) / No(null),1,Pipe," 95,411,638 ",33%
+Interest / Hobby - Contributor / Donor,donor_arts_or_cultural,Donor Arts,Donates to art / cultural causes,No,string(01),Yes(1) / No(null),1,Pipe," 1,096,951 ",0%
+Interest / Hobby - Crafts,art_craft,Art and Crafts,Interest in arts and crafts,No,string(01),Yes(1) / No(null),1,Pipe," 97,180,120 ",34%
+Interest / Hobby - Crafts,hobby_crafts,Crafts,Interest in crafts,No,string(01),Yes(1) / No(null),1,Pipe," 90,032,014 ",31%
+Interest / Hobby - Crafts,hobby_knitting_or_needlework,Knitting,Interest in knitting or needlework,No,string(01),Yes(1) / No(null),1,Pipe," 29,716,156 ",10%
+Interest / Hobby - Crafts,hobby_quilting,Quilting,Interest in quilting,No,string(01),Yes(1) / No(null),1,Pipe," 2,700,439 ",1%
+Interest / Hobby - Crafts,hobby_sewing,Sewing,Interest in sewing,No,string(01),Yes(1) / No(null),1,Pipe," 29,553,813 ",10%
+Interest / Hobby - DIY,doit_yourselfer,Do It Yourself,"Made up of two or more:  motorcycling, technology, gadgets, recreational vehicle, woodworking, sewing, etc.",No,string(01),Yes(1) / No(null),1,Pipe," 67,128,188 ",23%
+Interest / Hobby - DIY,hobby_woodworking,Woodworking,Interest in woodworking,No,string(01),Yes(1) / No(null),1,Pipe," 25,236,398 ",9%
+Interest / Hobby - DIY,home_decor,Home Decor,Home decorators,No,string(01),Yes(1) / No(null),1,Pipe," 115,304,235 ",40%
+Interest / Hobby - Education,hobby_home_study_courses,Home Study,Interest in home study courses,No,string(01),Yes(1) / No(null),1,Pipe," 20,764,367 ",7%
+Interest / Hobby - Education,hobby_self_improvement_courses,Self Improvement,Interest in self improvement courses,No,string(01),Yes(1) / No(null),1,Pipe," 24,709,761 ",9%
+Interest / Hobby - Education,online_education,Online Education,Indicates interest in online education / distance learning,No,string(01),Yes(1) / No(null),1,Pipe," 22,081,037 ",8%
+Interest / Hobby - Education,science_space,Science Space,Interest in science / space,No,string(01),Yes(1) / No(null),1,Pipe," 11,204,953 ",4%
+Interest / Hobby - Education,self_improvement,Self Improvement,Interest in self improvement,No,string(01),Yes(1) / No(null),1,Pipe," 9,723,471 ",3%
+Interest / Hobby - Electronics,consumer_electronics,Electronics,Interest in consumer electronics,No,string(01),Yes(1) / No(null),1,Pipe," 127,134,094 ",44%
+Interest / Hobby - Electronics,hightechleader,High Tech Leader,Interest in high tech,No,string(01),Yes(1) / No(null),1,Pipe," 51,614,650 ",18%
+Interest / Hobby - Entertainment,entertainment_enth,Entertainment,Interest in entertainment,No,string(01),Yes(1) / No(null),1,Pipe," 84,828,525 ",30%
+Interest / Hobby - Entertainment,movie,Movies,Interest in movies,No,string(01),Yes(1) / No(null),1,Pipe," 66,989,296 ",23%
+Interest / Hobby - Entertainment,nascar,NASCAR,Likes NASCAR racing,No,string(01),Yes(1) / No(null),1,Pipe," 20,902,840 ",7%
+Interest / Hobby - Entertainment,tv_sports,TV Sports,Interested in watching sports on TV,No,string(01),Yes(1) / No(null),1,Pipe," 18,788,073 ",7%
+Interest / Hobby - Family,family,Family,Interest in family,No,string(01),Yes(1) / No(null),1,Pipe," 47,665,049 ",17%
+Interest / Hobby - Food / Wine / Luxury,food,Food,Food and wine interest,No,string(01),Yes(1) / No(null),1,Pipe," 87,222,823 ",30%
+Interest / Hobby - Food / Wine / Luxury,hobby_cigar_smoking,Cigar Smoking,Interest in cigars,No,string(01),Yes(1) / No(null),1,Pipe," 8,142,797 ",3%
+Interest / Hobby - Food / Wine / Luxury,hobby_cooking,Cooking,Interest in cooking,No,string(01),Yes(1) / No(null),1,Pipe," 107,868,011 ",38%
+Interest / Hobby - Food / Wine / Luxury,hobby_cooking_gourmet,Gourmet Cooking,Interest in gourmet cooking,No,string(01),Yes(1) / No(null),1,Pipe," 101,202,163 ",35%
+Interest / Hobby - Food / Wine / Luxury,hobby_wine_appreciation,Wine Appreciation,Interest in wine,No,string(01),Yes(1) / No(null),1,Pipe," 11,720,044 ",4%
+Interest / Hobby - Food / Wine / Luxury,luxury_life,Luxury Life,"Made up of three or more:  gourmet cooking, health / natural foods, wines, fashion clothing, home decor, etc.",No,string(01),Yes(1) / No(null),1,Pipe," 36,633,588 ",13%
+Interest / Hobby - Gambling,casino_gambling,Casino / Gambling,Interest in casino gambling,No,string(01),Yes(1) / No(null),1,Pipe," 18,739,411 ",7%
+Interest / Hobby - Gambling,sports_betting,Sports Betting,Interest in wagering on undefined sporting events,No,string(01),Yes(1) / No(null),1,Pipe," 709,562 ",0%
+Interest / Hobby - Gambling,sweepstakes_contest,Sweepstakes,Interest in sweepstakes / contests,No,string(01),Yes(1) / No(null),1,Pipe," 50,614,155 ",18%
+Interest / Hobby - Gaming,hobby_board_games,Board Games,Interest in board games,No,string(01),Yes(1) / No(null),1,Pipe," 8,394,634 ",3%
+Interest / Hobby - Gaming,hobby_computer_games,Computer Games,Interest in computer games,No,string(01),Yes(1) / No(null),1,Pipe," 9,931,349 ",3%
+Interest / Hobby - Gaming,hobby_video_games,Video Games,Interest in video games,No,string(01),Yes(1) / No(null),1,Pipe," 10,359,310 ",4%
+Interest / Hobby - Health / Fitness,aerobics,Aerobics,Interest in aerobics,No,string(01),Yes(1) / No(null),1,Pipe," 39,222,683 ",14%
+Interest / Hobby - Health / Fitness,diet_weight_loss,Diet Weight Loss,Interest in dieting / weight loss,No,string(01),Yes(1) / No(null),1,Pipe," 40,912,645 ",14%
+Interest / Hobby - Health / Fitness,fitness,Fitness,Likes fitness,No,string(01),Yes(1) / No(null),1,Pipe," 11,532,363 ",4%
+Interest / Hobby - Health / Fitness,health_living,Healthy Living,"Made up of two of more:  bicycling, running / jogging, self-improvement, health / natural foods, etc.",No,string(01),Yes(1) / No(null),1,Pipe," 91,367,672 ",32%
+Interest / Hobby - Health / Fitness,running,Running,Likes running,No,string(01),Yes(1) / No(null),1,Pipe," 13,847,476 ",5%
+Interest / Hobby - Health / Fitness,walking,Walking,Likes walking,No,string(01),Yes(1) / No(null),1,Pipe," 35,975,880 ",13%
+Interest / Hobby - Music,genre_musictype_christian_or_g,Christian Music,Likes Christian / gospel music genre,No,string(01),Yes(1) / No(null),1,Pipe," 6,520,947 ",2%
+Interest / Hobby - Music,genre_musictype_classical,Classical Music,Likes classical music genre,No,string(01),Yes(1) / No(null),1,Pipe," 6,342,276 ",2%
+Interest / Hobby - Music,genre_musictype_country,Country Music,Likes country music genre,No,string(01),Yes(1) / No(null),1,Pipe," 11,841,458 ",4%
+Interest / Hobby - Music,genre_musictype_jazz,Jazz Music,Likes jazz music genre,No,string(01),Yes(1) / No(null),1,Pipe," 4,876,462 ",2%
+Interest / Hobby - Music,genre_musictype_rhythm_and_blu,Rhythm and Blues Music,Likes R&B music genre,No,string(01),Yes(1) / No(null),1,Pipe," 6,396,606 ",2%
+Interest / Hobby - Music,genre_musictype_rock_n_roll,Rock and Roll Music,Likes rock and roll music genre,No,string(01),Yes(1) / No(null),1,Pipe," 12,431,524 ",4%
+Interest / Hobby - Music,genre_musictype_soft_rock_or_e,Easy Listening Music,Likes soft rock / easy listening music genre,No,string(01),Yes(1) / No(null),1,Pipe," 6,365,771 ",2%
+Interest / Hobby - Music,music,Music,Interest in music,No,string(01),Yes(1) / No(null),1,Pipe," 73,667,809 ",26%
+Interest / Hobby - Music,music_player,Music Player,Interest in music players,No,string(01),Yes(1) / No(null),1,Pipe," 21,042,292 ",7%
+Interest / Hobby - Outdoor,camping_or_hiking,Camping / Hiking,Likes camping / hiking,No,string(01),Yes(1) / No(null),1,Pipe," 33,722,579 ",12%
+Interest / Hobby - Outdoor,fishing,Fishing,Likes fishing,No,string(01),Yes(1) / No(null),1,Pipe," 40,447,462 ",14%
+Interest / Hobby - Outdoor,gardening,Gardening,Interest in gardening,No,string(01),Yes(1) / No(null),1,Pipe," 105,109,375 ",37%
+Interest / Hobby - Outdoor,hobby_bird_watching,Bird Watching,Interest in bird watching,No,string(01),Yes(1) / No(null),1,Pipe," 5,245,819 ",2%
+Interest / Hobby - Political,current_affairs_politics,Current Affairs,Interest in current affairs and politics,No,string(01),Yes(1) / No(null),1,Pipe," 44,600,356 ",16%
+Interest / Hobby - Reading,avid_readers,Avid Reader,"Avid readers - enjoy reading books, magazines, newspapers",No,string(01),Yes(1) / No(null),1,Pipe," 125,822,813 ",44%
+Interest / Hobby - Reading,reading_astrology,Astrology Reading,Reads astrology books,No,string(01),Yes(1) / No(null),1,Pipe," 1,640,185 ",1%
+Interest / Hobby - Reading,reading_best_selling_fiction,Fiction Reading,Reads best selling fiction,No,string(01),Yes(1) / No(null),1,Pipe," 9,119,274 ",3%
+Interest / Hobby - Reading,reading_bible_or_devotional,Bible Reading,Reads bible / devotional books,No,string(01),Yes(1) / No(null),1,Pipe," 34,389,084 ",12%
+Interest / Hobby - Reading,reading_books_on_tape,Books on Tape,Listens to books on tape / audio books,No,string(01),Yes(1) / No(null),1,Pipe," 3,119,827 ",1%
+Interest / Hobby - Reading,reading_children_s,Children Reading,Reads children's books,No,string(01),Yes(1) / No(null),1,Pipe," 6,461,634 ",2%
+Interest / Hobby - Reading,reading_computer,Computer Reading,Reads computer / technical books / materials,No,string(01),Yes(1) / No(null),1,Pipe," 3,655,520 ",1%
+Interest / Hobby - Reading,reading_cooking_or_culinary,Cookbook Reading,Reads cookbooks,No,string(01),Yes(1) / No(null),1,Pipe," 10,377,919 ",4%
+Interest / Hobby - Reading,reading_country_lifestyle,Country Book Reading,Reads country lifestyle books / materials,No,string(01),Yes(1) / No(null),1,Pipe," 4,922,914 ",2%
+Interest / Hobby - Reading,reading_fashion,Fashion Reading,Reads fashion books / materials,No,string(01),Yes(1) / No(null),1,Pipe," 5,868,633 ",2%
+Interest / Hobby - Reading,reading_history,History Reading,Reads history books / materials,No,string(01),Yes(1) / No(null),1,Pipe," 4,363,056 ",2%
+Interest / Hobby - Reading,reading_interior_decorating,Interior Decorating,Reads interior decorating books / materials,No,string(01),Yes(1) / No(null),1,Pipe," 6,388,009 ",2%
+Interest / Hobby - Reading,reading_medical_or_health,Medical Reading,Reads medical / health books / materials,No,string(01),Yes(1) / No(null),1,Pipe," 7,568,063 ",3%
+Interest / Hobby - Reading,reading_military,Military Reading,Reads military books / materials,No,string(01),Yes(1) / No(null),1,Pipe," 1,990,148 ",1%
+Interest / Hobby - Reading,reading_mystery,Mystery Reading,Reads mysteries,No,string(01),Yes(1) / No(null),1,Pipe," 7,067,054 ",2%
+Interest / Hobby - Reading,reading_natural_health_remedie,Health Remedy Reading,Reads natural heath remedies,No,string(01),Yes(1) / No(null),1,Pipe," 4,851,418 ",2%
+Interest / Hobby - Reading,reading_news_finance,News and Finance Reading,Read news and finance / financial newsletters,No,string(01),Yes(1) / No(null),1,Pipe," 38,431,945 ",13%
+Interest / Hobby - Reading,reading_people_or_entertainmen,Entertainment Reading,Reads people / entertainment materials,No,string(01),Yes(1) / No(null),1,Pipe," 7,758,336 ",3%
+Interest / Hobby - Reading,reading_romance,Romance Reading,Reads romance books,No,string(01),Yes(1) / No(null),1,Pipe," 5,951,115 ",2%
+Interest / Hobby - Reading,reading_science_fiction,Science Fiction Reading,Reads science fiction,No,string(01),Yes(1) / No(null),1,Pipe," 7,771,875 ",3%
+Interest / Hobby - Reading,reading_science_or_technology,Science Technology Reading,Reads science / technology materials,No,string(01),Yes(1) / No(null),1,Pipe," 3,521,649 ",1%
+Interest / Hobby - Reading,reading_sports,Sports Reading,Reads sports ,No,string(01),Yes(1) / No(null),1,Pipe," 7,924,105 ",3%
+Interest / Hobby - Reading,reading_world_news_or_politics,World News Reading,Reads world news / political materials,No,string(01),Yes(1) / No(null),1,Pipe," 13,135,371 ",5%
+Interest / Hobby - Reading,religious_inspirational,Religious Reading,Reads religious / inspirational materials,No,string(01),Yes(1) / No(null),1,Pipe," 32,992,496 ",12%
+Interest / Hobby - Sports / Outdoor,baseball,Baseball,Likes baseball,No,string(01),Yes(1) / No(null),1,Pipe," 27,767,182 ",10%
+Interest / Hobby - Sports / Outdoor,basketball,Basketball,Likes basketball,No,string(01),Yes(1) / No(null),1,Pipe," 26,329,220 ",9%
+Interest / Hobby - Sports / Outdoor,boating_or_sailing,Boating / Sailing,Likes boating / sailing,No,string(01),Yes(1) / No(null),1,Pipe," 24,865,216 ",9%
+Interest / Hobby - Sports / Outdoor,football,Football,Likes football,No,string(01),Yes(1) / No(null),1,Pipe," 37,369,517 ",13%
+Interest / Hobby - Sports / Outdoor,golf,Golf,Likes golf,No,string(01),Yes(1) / No(null),1,Pipe," 38,915,970 ",14%
+Interest / Hobby - Sports / Outdoor,great_outdoors,Great Outdoors,"Made up of three or more of:  hunting / shooting, sailing / boating, fishing, motorcycling, camping / hiking, recreational vehicles, etc.",No,string(01),Yes(1) / No(null),1,Pipe," 76,475,046 ",27%
+Interest / Hobby - Sports / Outdoor,hockey,Hockey,Likes hockey,No,string(01),Yes(1) / No(null),1,Pipe," 10,572,464 ",4%
+Interest / Hobby - Sports / Outdoor,hunting,Hunting,Likes hunting,No,string(01),Yes(1) / No(null),1,Pipe," 49,215,146 ",17%
+Interest / Hobby - Sports / Outdoor,scuba_diving,SCUBA Diving,Likes SCUBA Diving,No,string(01),Yes(1) / No(null),1,Pipe," 1,074,556 ",0%
+Interest / Hobby - Sports / Outdoor,snow_skiing,Snow Skiing,Likes snow skiing,No,string(01),Yes(1) / No(null),1,Pipe," 9,530,034 ",3%
+Interest / Hobby - Sports / Outdoor,sporting_life,Sporting Life,Made up of three or more sports,No,string(01),Yes(1) / No(null),1,Pipe," 73,918,419 ",26%
+Interest / Hobby - Sports / Outdoor,sports,Sports,Likes sports,No,string(01),Yes(1) / No(null),1,Pipe," 82,775,077 ",29%
+Interest / Hobby - Sports / Outdoor,tennis,Tennis,Likes tennis,No,string(01),Yes(1) / No(null),1,Pipe," 4,428,358 ",2%
+Retail Purchase - Auto & Vehicles,auto_parts_repair_accesories_w,Auto Parts Purchase,"Automotive, auto parts and accessories purchase within the last 24 months",No,string(01),Yes(1) / No(null),1,Pipe," 15,375,655 ",5%
+Retail Purchase - Big Box Retail,membership_warehouse,Warehouse Membership,Owns a warehouse membership,No,string(01),Yes(1) / No(null),1,Pipe," 5,985,762 ",2%
+Retail Purchase - Catalog / Direct Mail,mail_buyer,Direct Mail Buyer,Mail order buyer,No,string(01),Yes(1) / No(null),1,Pipe," 125,398,173 ",44%
+Retail Purchase - Catalog / Direct Mail,respondedtocatalog,Catalog Buyer,Responded to catalog,No,string(01),Yes(1) / No(null),1,Pipe," 864,508 ",0%
+Retail Purchase - Children,mo_children_s_products,Children's Product Purchase,Purchase children's products via mail,No,string(01),Yes(1) / No(null),1,Pipe," 31,126,782 ",11%
+Retail Purchase - Contributor / Donor,crafts_hobbmerchbuyer,Craft Hobby Merchandise Buyer,Purchased craft or hobby merchandise via mail,No,string(01),Yes(1) / No(null),1,Pipe," 60,015,452 ",21%
+Retail Purchase - Ecommerce,internet_buyer,Internet Buyer,Buys online,No,string(01),Yes(1) / No(null),1,Pipe," 33,764,553 ",12%
+Retail Purchase - Entertainment,mo_dvd,DVD Purchase,Purchased DVDs via mail,No,string(01),Yes(1) / No(null),1,Pipe," 3,590,841 ",1%
+Retail Purchase - Fashion / Jewelry,mo_clothing,Clothing Purchase,Purchased clothing via mail,No,string(01),Yes(1) / No(null),1,Pipe," 10,579,964 ",4%
+Retail Purchase - Fashion / Jewelry,mo_jewelry,Jewelry Purchase,Purchased jewelry via mail,No,string(01),Yes(1) / No(null),1,Pipe," 9,825,111 ",3%
+Retail Purchase - Fashion / Jewelry,mo_plus_size_clothing,Plus Size Clothing Purchase,Purchased plus size clothing via mail,No,string(01),Yes(1) / No(null),1,Pipe," 1,271,331 ",0%
+Retail Purchase - General,femalemerchbuyer,Female Merchandise Buyer,Female merchandise buyer,No,string(01),Yes(1) / No(null),1,Pipe," 43,586,269 ",15%
+Retail Purchase - General,malemerchbuyer,Male Merchandise Buyer,Male merchandise buyer,No,string(01),Yes(1) / No(null),1,Pipe," 790,963 ",0%
+Retail Purchase - Gifts,mo_gifts,Gift Purchase,Purchased gifts via mail,No,string(01),Yes(1) / No(null),1,Pipe," 7,043,670 ",2%
+Retail Purchase - Health / Beauty,health_beauty,Health Beauty Purchase,Health and beauty product purchase within the last 24 months,No,string(01),Yes(1) / No(null),1,Pipe," 54,631,623 ",19%
+Retail Purchase - Health / Beauty,mo_cosmetics,Cosmetics Purchase,Purchased cosmetics via mail,No,string(01),Yes(1) / No(null),1,Pipe," 30,501,863 ",11%
+Retail Purchase - Home,home_improvement,Home Improvement,Home improvement purchase,No,string(01),Yes(1) / No(null),1,Pipe," 90,610,860 ",32%
+Retail Purchase - Home,mo_home_furnishing,Home Furnishing Purchase,Purchased home furnishings via mail,No,string(01),Yes(1) / No(null),1,Pipe," 93,829,362 ",33%
+Retail Purchase - Music,musical_instruments,Musical Instrument Purchase,Musical instrument purchase within the last 24 months,No,string(01),Yes(1) / No(null),1,Pipe," 2,409,030 ",1%
+Retail Purchase - Reading,bookbuyer,Book Buyer,Book buyer,No,string(01),Yes(1) / No(null),1,Pipe," 87,556,896 ",31%
+Retail Purchase - Reading,magazine,Magazine Buyer,Magazines purchased,No,string(01),Yes(1) / No(null),1,Pipe," 118,236,356 ",41%
+Retail Purchase - Reading,mo_books_or_mag,Book Magazine Purchase,Purchased books or magazines via mail,No,string(01),Yes(1) / No(null),1,Pipe," 49,201,468 ",17%
+Travel - Business,travel_business,Business Travel,Business travel,No,string(01),Yes(1) / No(null),1,Pipe," 14,702,858 ",5%
+Travel - Credit Card,travel_card,Travel Cards,Indicates possession of travel / entertainment credit cards,No,string(01),Yes(1) / No(null),1,Pipe," 12,465,530 ",4%
+Travel - Interest,travel,Travel,Interest in travel,No,string(01),Yes(1) / No(null),1,Pipe," 120,116,929 ",42%
+Travel - Interest,travel_cruises,Cruises,Likes cruise travel,No,string(01),Yes(1) / No(null),1,Pipe," 35,193,675 ",12%
+Travel - Interest,travel_international,International Travel,Interest in international travel,No,string(01),Yes(1) / No(null),1,Pipe," 29,744,568 ",10%
+Travel - Interest,travel_personal,Personal Travel,Interest in personal travel,No,string(01),Yes(1) / No(null),1,Pipe," 18,804,957 ",7%
+Travel - Interest,travel_vacation,Vacation Travel,Interest in vacation travel,No,string(01),Yes(1) / No(null),1,Pipe," 92,295,519 ",32%
